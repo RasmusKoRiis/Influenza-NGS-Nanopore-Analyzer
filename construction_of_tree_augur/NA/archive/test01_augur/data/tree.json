@@ -1,0 +1,4274 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Tutorial Nextstrain build for Zika virus",
+    "updated": "2022-08-25",
+    "build_url": "https://github.com/nextstrain/zika-tutorial",
+    "maintainers": [
+      {
+        "name": "Trevor Bedford",
+        "url": "http://bedford.io/team/trevor-bedford/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 1436,
+        "start": 1,
+        "strand": "+",
+        "seqid": "data/zika_outgroup.gb",
+        "type": "source"
+      },
+      "NA": {
+        "end": 1430,
+        "seqid": "data/zika_outgroup.gb",
+        "start": 4,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Japan",
+            "#4B8FC1"
+          ],
+          [
+            "Italy",
+            "#5098B9"
+          ],
+          [
+            "USA",
+            "#DC2F24"
+          ]
+        ]
+      },
+      {
+        "key": "region",
+        "title": "Region",
+        "type": "categorical",
+        "scale": [
+          [
+            "oceania",
+            "#88BB6C"
+          ],
+          [
+            "europe",
+            "#E39B39"
+          ],
+          [
+            "north_america",
+            "#DC2F24"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "country",
+      "region",
+      "author"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "USA": {
+            "latitude": 39.7837304,
+            "longitude": -100.4458824
+          },
+          "Italy": {
+            "latitude": 42.6384261,
+            "longitude": 12.674297
+          },
+          "Bahrain": {
+            "latitude": 26.22787,
+            "longitude": 50.58565
+          },
+          "Australia": {
+            "latitude": -24.7761085,
+            "longitude": 134.755
+          },
+          "Germany": {
+            "latitude": 51.0834196,
+            "longitude": 10.4234469
+          },
+          "Canada": {
+            "latitude": 61.0666922,
+            "longitude": -107.991707
+          },
+          "Japan": {
+            "latitude": 35.68536,
+            "longitude": 139.75309
+          }
+        }
+      },
+      {
+        "key": "region",
+        "demes": {
+          "europe": {
+            "latitude": 49.646237,
+            "longitude": 10.799454
+          },
+          "oceania": {
+            "latitude": -25.0562891,
+            "longitude": 152.008576
+          },
+          "north_america": {
+            "latitude": 28.2367447,
+            "longitude": -97.738017
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1948.4987855755137,
+        "confidence": [
+          338.43064118779057,
+          1991.9975885572578
+        ]
+      },
+      "country": {
+        "value": "USA",
+        "confidence": {
+          "Canada": 0.1475182870893256,
+          "Germany": 0.12672960548142514,
+          "Italy": 0.126782417143978,
+          "USA": 0.22174042474845593
+        },
+        "entropy": 1.922126565936396
+      },
+      "region": {
+        "value": "north_america",
+        "confidence": {
+          "Australia": 0.15347681015454512,
+          "europe": 0.1544765856515775,
+          "north_america": 0.3897038171566003,
+          "oceania": 0.15192449134956787
+        },
+        "entropy": 1.5146344082430205
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000002",
+        "node_attrs": {
+          "div": 0.1326493273030521,
+          "num_date": {
+            "value": 2016.8468887409,
+            "confidence": [
+              2000.1777659815514,
+              2018.0698630136985
+            ]
+          },
+          "country": {
+            "value": "Canada",
+            "confidence": {
+              "Canada": 0.9980663925028926
+            },
+            "entropy": 0.017333023536339545
+          },
+          "region": {
+            "value": "north_america",
+            "confidence": {
+              "asia": 0.0073655891010895634,
+              "europe": 0.006397911023516524,
+              "north_america": 0.9751675361094746,
+              "oceania": 0.00703129689940833
+            },
+            "entropy": 0.1501271709779697
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "T9C",
+              "A28G",
+              "T33A",
+              "C36G",
+              "T42C",
+              "C48A",
+              "A49G",
+              "C57A",
+              "A61G",
+              "C66T",
+              "A73T",
+              "G75A",
+              "A78G",
+              "G90A",
+              "T92C",
+              "T96A",
+              "A102G",
+              "T106C",
+              "C109T",
+              "T111C",
+              "C121A",
+              "T133A",
+              "C134T",
+              "C139T",
+              "A141G",
+              "A146G",
+              "C147T",
+              "G151A",
+              "A154G",
+              "T158C",
+              "G159A",
+              "G163A",
+              "C170T",
+              "A171C",
+              "A183G",
+              "A196G",
+              "G201A",
+              "T202C",
+              "C209A",
+              "C210T",
+              "C213T",
+              "C216T",
+              "T219C",
+              "G225A",
+              "G228A",
+              "A234T",
+              "C238T",
+              "A241G",
+              "A242T",
+              "C244G",
+              "C245T",
+              "A246G",
+              "G247C",
+              "C248T",
+              "A258G",
+              "T261C",
+              "A267G",
+              "A276G",
+              "A280C",
+              "C282A",
+              "A297T",
+              "T306C",
+              "T315C",
+              "T321C",
+              "G324A",
+              "T327C",
+              "C345T",
+              "G351A",
+              "T378C",
+              "T381C",
+              "G382A",
+              "A383G",
+              "A396G",
+              "C402A",
+              "A414G",
+              "A417C",
+              "A423G",
+              "C429T",
+              "G430A",
+              "T431A",
+              "G432A",
+              "T435C",
+              "T441C",
+              "A443G",
+              "G448A",
+              "C463T",
+              "A477T",
+              "G480A",
+              "A501G",
+              "G513A",
+              "G519A",
+              "A561G",
+              "C571T",
+              "G573A",
+              "A583G",
+              "A585C",
+              "G591A",
+              "A599G",
+              "A606G",
+              "C615T",
+              "A619G",
+              "T621G",
+              "C624T",
+              "G630A",
+              "G632T",
+              "A639T",
+              "T642C",
+              "C660T",
+              "A661C",
+              "A662G",
+              "C678T",
+              "G681A",
+              "C693T",
+              "T699C",
+              "A708G",
+              "T741A",
+              "A750G",
+              "A761G",
+              "T774C",
+              "G775A",
+              "A776G",
+              "G777A",
+              "C789T",
+              "T792C",
+              "A802C",
+              "A813G",
+              "G822A",
+              "T825C",
+              "G826A",
+              "C828A",
+              "G834A",
+              "C837T",
+              "T849C",
+              "G851A",
+              "T858A",
+              "G859A",
+              "G860A",
+              "C864T",
+              "C873T",
+              "C885T",
+              "A891G",
+              "A907G",
+              "C909T",
+              "G910A",
+              "A924G",
+              "A925G",
+              "A926C",
+              "G927A",
+              "G935A",
+              "T939C",
+              "G940A",
+              "T941A",
+              "A972C",
+              "C975T",
+              "C981A",
+              "A984G",
+              "A987T",
+              "A988G",
+              "C990T",
+              "C993T",
+              "C999T",
+              "T1005C",
+              "C1009A",
+              "T1011C",
+              "C1015A",
+              "T1016A",
+              "C1026T",
+              "G1033A",
+              "A1034G",
+              "T1038G",
+              "G1039A",
+              "G1040A",
+              "A1043C",
+              "T1044A",
+              "A1053G",
+              "C1056G",
+              "G1069A",
+              "G1073A",
+              "A1074T",
+              "G1083T",
+              "A1095G",
+              "A1103G",
+              "G1105A",
+              "G1107A",
+              "A1108G",
+              "C1109A",
+              "G1110T",
+              "C1112T",
+              "C1116T",
+              "T1118C",
+              "A1128G",
+              "C1131T",
+              "A1137G",
+              "A1145G",
+              "A1146T",
+              "T1153A",
+              "A1157C",
+              "C1158T",
+              "C1159G",
+              "C1164T",
+              "A1170G",
+              "T1172C",
+              "A1177G",
+              "A1179C",
+              "G1185A",
+              "A1203T",
+              "G1204A",
+              "G1205A",
+              "A1210T",
+              "C1215T",
+              "C1254T",
+              "A1255G",
+              "C1257T",
+              "C1261A",
+              "C1266T",
+              "G1287A",
+              "A1291G",
+              "A1294C",
+              "A1295C",
+              "G1297C",
+              "G1299A",
+              "A1302G",
+              "A1307G",
+              "C1311A",
+              "C1320T",
+              "C1326T",
+              "T1329C",
+              "T1335C",
+              "G1338A",
+              "C1347T",
+              "C1350T",
+              "A1353T",
+              "A1359C",
+              "G1390A",
+              "C1395T",
+              "T1398C",
+              "C1399T"
+            ],
+            "NA": [
+              "T9A",
+              "T16A",
+              "I20V",
+              "M24L",
+              "V30A",
+              "H36Y",
+              "H40N",
+              "S44I",
+              "P46S",
+              "N48S",
+              "V50I",
+              "M51V",
+              "L52P",
+              "E54K",
+              "T56I",
+              "I65V",
+              "Y67H",
+              "T69N",
+              "P79S",
+              "K80V",
+              "P81V",
+              "A82L",
+              "N93Q",
+              "D127S",
+              "V143K",
+              "N147S",
+              "V149I",
+              "P154S",
+              "I194V",
+              "K199R",
+              "I206V",
+              "R210M",
+              "K220R",
+              "K253R",
+              "E258R",
+              "T267P",
+              "V275I",
+              "R283Q",
+              "G286N",
+              "I302V",
+              "V303I",
+              "I307M",
+              "K308A",
+              "S311N",
+              "V313N",
+              "K328N",
+              "N329D",
+              "H336N",
+              "L338K",
+              "E344R",
+              "G346N",
+              "H347P",
+              "D356N",
+              "G357D",
+              "N367S",
+              "E368K",
+              "T369D",
+              "S370L",
+              "L372S",
+              "E381G",
+              "S384T",
+              "N385T",
+              "P386A",
+              "L390S",
+              "I392V",
+              "K400N",
+              "G401N",
+              "R403W",
+              "I418V",
+              "R430G",
+              "K431P",
+              "E432Q",
+              "K435R",
+              "D463N",
+              "L466F"
+            ]
+          },
+          "labels": {
+            "aa": "NA: T9A, T16A, I20V, M24L, V30A, H36Y, H40N, S44I, P46S, N48S, V50I, M51V, L52P, E54K, T56I, I65V, Y67H, T69N, P79S, K80V, P81V, A82L, N93Q, D127S, V143K, N147S, V149I, P154S, I194V, K199R, I206V, R210M, K220R, K253R, E258R, T267P, V275I, R283Q, G286N, I302V, V303I, I307M, K308A, S311N, V313N, K328N, N329D, H336N, L338K, E344R, G346N, H347P, D356N, G357D, N367S, E368K, T369D, S370L, L372S, E381G, S384T, N385T, P386A, L390S, I392V, K400N, G401N, R403W, I418V, R430G, K431P, E432Q, K435R, D463N, L466F"
+          }
+        },
+        "children": [
+          {
+            "name": "A/canine/Ontario/NCFAD_2018_070_4/2018|6|01/26/2018|Canada|NA",
+            "node_attrs": {
+              "div": 0.13672618730305208,
+              "num_date": {
+                "value": 2018.0698630136985,
+                "confidence": [
+                  2018.0698630136985,
+                  2018.0698630136985
+                ]
+              },
+              "country": {
+                "value": "Canada",
+                "confidence": {
+                  "Canada": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "north_america": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T86C",
+                  "C87T",
+                  "G236A",
+                  "A357G",
+                  "A420G"
+                ],
+                "NA": [
+                  "I28T",
+                  "C78Y"
+                ]
+              },
+              "labels": {
+                "aa": "NA: I28T, C78Y"
+              }
+            }
+          },
+          {
+            "name": "A/canine/Ontario/NCFAD_2018_070_15/2018|6|03/14/2018|Canada|NA",
+            "node_attrs": {
+              "div": 0.1335727173030521,
+              "num_date": {
+                "value": 2018.1986301369864,
+                "confidence": [
+                  2018.1986301369864,
+                  2018.1986301369864
+                ]
+              },
+              "country": {
+                "value": "Canada",
+                "confidence": {
+                  "Canada": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "north_america": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A720G",
+                  "A749G"
+                ],
+                "NA": [
+                  "K249R"
+                ]
+              },
+              "labels": {
+                "aa": "NA: K249R"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.07713593269694789,
+          "num_date": {
+            "value": 1988.3211161739102,
+            "confidence": [
+              1274.5092312856736,
+              2006.446461115668
+            ]
+          },
+          "country": {
+            "value": "USA",
+            "confidence": {
+              "Australia": 0.15179715195461843,
+              "Canada": 0.10566837443433745,
+              "Japan": 0.10571511822272488,
+              "USA": 0.32298958403230094
+            },
+            "entropy": 1.834692362602507
+          },
+          "region": {
+            "value": "north_america",
+            "confidence": {
+              "asia": 0.15206452281446703,
+              "europe": 0.15422498472734988,
+              "north_america": 0.3938848068715475,
+              "oceania": 0.15299346025860008
+            },
+            "entropy": 1.5106028060192407
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 0.09385622269694789,
+              "num_date": {
+                "value": 1994.570888378681,
+                "confidence": [
+                  1418.1702285299255,
+                  2008.6307660842058
+                ]
+              },
+              "country": {
+                "value": "USA",
+                "confidence": {
+                  "Australia": 0.1542894904304759,
+                  "Bahrain": 0.09200000222089724,
+                  "Japan": 0.09267437168557371,
+                  "USA": 0.3919181707940563
+                },
+                "entropy": 1.7442680810909346
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "asia": 0.1523663076207301,
+                  "europe": 0.15326655583010365,
+                  "north_america": 0.40014783588282204,
+                  "oceania": 0.15289771370296942
+                },
+                "entropy": 1.5043055278903052
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C50T",
+                  "C72T",
+                  "A126T",
+                  "A198T",
+                  "T205C",
+                  "A270G",
+                  "C303T",
+                  "A442G",
+                  "A447T",
+                  "T468C",
+                  "G471A",
+                  "T474C",
+                  "A518G",
+                  "C669A",
+                  "G675A",
+                  "A687G",
+                  "G954A",
+                  "T957C",
+                  "C998T",
+                  "G1017A",
+                  "A1047G",
+                  "G1092A",
+                  "A1098G",
+                  "T1143C",
+                  "C1158A",
+                  "T1178C",
+                  "C1200A",
+                  "G1250A"
+                ],
+                "NA": [
+                  "T16I",
+                  "E41D",
+                  "N147D",
+                  "K172R",
+                  "S332F",
+                  "N385K",
+                  "I392T",
+                  "D399E",
+                  "S416N"
+                ]
+              },
+              "labels": {
+                "aa": "NA: T16I, E41D, N147D, K172R, S332F, N385K, I392T, D399E, S416N"
+              }
+            },
+            "children": [
+              {
+                "name": "A/swine/Iowa/A02257201/2018|6|09/04/2018|USA|NA",
+                "node_attrs": {
+                  "div": 0.1448653526969479,
+                  "num_date": {
+                    "value": 2018.6753424657534,
+                    "confidence": [
+                      2018.6753424657534,
+                      2018.6753424657534
+                    ]
+                  },
+                  "country": {
+                    "value": "USA",
+                    "confidence": {
+                      "USA": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "north_america": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T9C",
+                      "C69T",
+                      "C87T",
+                      "A103G",
+                      "G108A",
+                      "C136T",
+                      "C139T",
+                      "A153G",
+                      "A180G",
+                      "A208G",
+                      "C215A",
+                      "C245T",
+                      "A267G",
+                      "G273T",
+                      "C282A",
+                      "G309A",
+                      "G324A",
+                      "C330A",
+                      "C345T",
+                      "A387G",
+                      "G459A",
+                      "T465C",
+                      "T466C",
+                      "T486C",
+                      "T498C",
+                      "G513A",
+                      "T597C",
+                      "C615T",
+                      "A661C",
+                      "G681A",
+                      "A723G",
+                      "A735G",
+                      "A749G",
+                      "G777A",
+                      "A790G",
+                      "T792A",
+                      "C803A",
+                      "G807A",
+                      "G859A",
+                      "C885T",
+                      "A926G",
+                      "T931C",
+                      "A937G",
+                      "T939C",
+                      "A963G",
+                      "T966C",
+                      "A987G",
+                      "T1008C",
+                      "A1010T",
+                      "A1053G",
+                      "C1080T",
+                      "C1101T",
+                      "A1103G",
+                      "C1104T",
+                      "C1109G",
+                      "G1110T",
+                      "T1118C",
+                      "C1131T",
+                      "C1149T",
+                      "A1158G",
+                      "A1177G",
+                      "G1198A",
+                      "A1202T",
+                      "T1206A",
+                      "C1215T",
+                      "T1272C",
+                      "A1302G",
+                      "A1303G",
+                      "C1304A",
+                      "T1305C",
+                      "A1323G",
+                      "G1386A",
+                      "G1390A"
+                    ],
+                    "NA": [
+                      "T34A",
+                      "P45S",
+                      "P46S",
+                      "T69A",
+                      "T71N",
+                      "P81L",
+                      "N93K",
+                      "Y155H",
+                      "K220Q",
+                      "K249R",
+                      "I263V",
+                      "T267K",
+                      "G286S",
+                      "K308R",
+                      "Y310H",
+                      "I312V",
+                      "H336L",
+                      "N367S",
+                      "T369S",
+                      "L372S",
+                      "T392A",
+                      "E399K",
+                      "K400I",
+                      "T434D",
+                      "D463N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "NA: T34A, P45S, P46S, T69A, T71N, P81L, N93K, Y155H, K220Q, K249R, I263V, T267K, G286S, K308R, Y310H, I312V, H336L, N367S, T369S, L372S, T392A, E399K, K400I, T434D, D463N"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 0.10092424269694789,
+                  "num_date": {
+                    "value": 1997.287926465531,
+                    "confidence": [
+                      1481.28271597908,
+                      2009.5875395962157
+                    ]
+                  },
+                  "country": {
+                    "value": "USA",
+                    "confidence": {
+                      "Australia": 0.15160233197318987,
+                      "Bahrain": 0.08537901116406493,
+                      "Japan": 0.08607364297662598,
+                      "USA": 0.42925037043410846
+                    },
+                    "entropy": 1.6878969847040421
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "asia": 0.15206175794541751,
+                      "europe": 0.15208802328547708,
+                      "north_america": 0.4057801355759142,
+                      "oceania": 0.152305385722196
+                    },
+                    "entropy": 1.4985180395006465
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T431G",
+                      "T738C",
+                      "A922G",
+                      "C1191T"
+                    ],
+                    "NA": [
+                      "V143G",
+                      "I307V"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "NA: V143G, I307V"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "div": 0.14381169269694788,
+                      "num_date": {
+                        "value": 2017.2464792079884,
+                        "confidence": [
+                          1977.0029223281547,
+                          2018.2945205479452
+                        ]
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "Australia": 0.004106017978024541,
+                          "Bahrain": 0.001422856807165244,
+                          "Japan": 0.0014456430495730995,
+                          "USA": 0.9891641275043855
+                        },
+                        "entropy": 0.07779540379993587
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "asia": 0.012231816109358864,
+                          "europe": 0.010706586809306386,
+                          "north_america": 0.958476003737936,
+                          "oceania": 0.011707707751446337
+                        },
+                        "entropy": 0.2294079591655453
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C66T",
+                          "C104A",
+                          "C118A",
+                          "A120G",
+                          "G124A",
+                          "T126C",
+                          "G128A",
+                          "C137T",
+                          "T152C",
+                          "T188C",
+                          "C205T",
+                          "A231G",
+                          "C240T",
+                          "A249G",
+                          "C255T",
+                          "A259G",
+                          "G270A",
+                          "T279C",
+                          "C330T",
+                          "C402T",
+                          "C421T",
+                          "G432A",
+                          "T435C",
+                          "C468T",
+                          "G592A",
+                          "A598G",
+                          "A600C",
+                          "G632A",
+                          "G684A",
+                          "A723G",
+                          "A735G",
+                          "A761G",
+                          "A786G",
+                          "C828T",
+                          "A854C",
+                          "T861C",
+                          "A907G",
+                          "A989G",
+                          "C1009T",
+                          "C1014T",
+                          "T1020C",
+                          "T1029C",
+                          "G1033A",
+                          "G1083A",
+                          "A1095G",
+                          "C1112T",
+                          "C1143T",
+                          "C1159G",
+                          "C1164T",
+                          "T1171G",
+                          "A1207G",
+                          "T1224A",
+                          "C1245T",
+                          "G1263A",
+                          "G1333C",
+                          "C1350A",
+                          "A1366G",
+                          "G1389A"
+                        ],
+                        "NA": [
+                          "T34K",
+                          "Q39K",
+                          "D41N",
+                          "C42Y",
+                          "P45L",
+                          "V50A",
+                          "I62T",
+                          "N86D",
+                          "D197N",
+                          "K199D",
+                          "R210K",
+                          "K253R",
+                          "Y284S",
+                          "I302V",
+                          "N329S",
+                          "H336Y",
+                          "E344K",
+                          "S370L",
+                          "P386A",
+                          "L390V",
+                          "N402D",
+                          "V444L",
+                          "T455A"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "NA: T34K, Q39K, D41N, C42Y, P45L, V50A, I62T, N86D, D197N, K199D, R210K, K253R, Y284S, I302V, N329S, H336Y, E344K, S370L, P386A, L390V, N402D, V444L, T455A"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/swine/Minnesota/A02157976/2018|6|04/18/2018|USA|NA",
+                        "node_attrs": {
+                          "div": 0.1457017326969479,
+                          "num_date": {
+                            "value": 2018.2945205479452,
+                            "confidence": [
+                              2018.2945205479452,
+                              2018.2945205479452
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "north_america": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A747G",
+                              "C856T",
+                              "G952A"
+                            ],
+                            "NA": [
+                              "P285S",
+                              "V317I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: P285S, V317I"
+                          }
+                        }
+                      },
+                      {
+                        "name": "A/swine/South_Dakota/A02245350/2019|6|12/02/2019|USA|NA",
+                        "node_attrs": {
+                          "div": 0.15267600269694787,
+                          "num_date": {
+                            "value": 2019.9191780821918,
+                            "confidence": [
+                              2019.9191780821918,
+                              2019.9191780821918
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "north_america": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A288T",
+                              "T645C",
+                              "A772G",
+                              "C936T",
+                              "A972C",
+                              "C981T",
+                              "G1098A",
+                              "C1209A",
+                              "C1236T",
+                              "C1251A",
+                              "C1399T",
+                              "C1401T"
+                            ],
+                            "NA": [
+                              "I257V",
+                              "D402E",
+                              "N416K",
+                              "L466F"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: I257V, D402E, N416K, L466F"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 0.11626224269694789,
+                      "num_date": {
+                        "value": 2002.9746365456679,
+                        "confidence": [
+                          1624.8446190972109,
+                          2012.113421269541
+                        ]
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "Australia": 0.13755473478784977,
+                          "Bahrain": 0.07289578760956951,
+                          "Japan": 0.0735446601618616,
+                          "USA": 0.5062765589653847
+                        },
+                        "entropy": 1.558148810520379
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "asia": 0.1486515764728671,
+                          "europe": 0.14666428058572295,
+                          "north_america": 0.42840638170253537,
+                          "oceania": 0.14820607432948746
+                        },
+                        "entropy": 1.474199460143897
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C136T",
+                          "G159T",
+                          "T188A",
+                          "A192G",
+                          "A220G",
+                          "G273T",
+                          "T306C",
+                          "A318G",
+                          "C543T",
+                          "A561G",
+                          "C702T",
+                          "A744C",
+                          "C766T",
+                          "A804G",
+                          "C909A",
+                          "T1122C",
+                          "G1144A",
+                          "C1149A",
+                          "C1261A",
+                          "A1359G"
+                        ],
+                        "NA": [
+                          "P45S",
+                          "I62K",
+                          "I73V",
+                          "E381K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "NA: P45S, I62K, I73V, E381K"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/swine/Iowa/A02254363/2018|6|07/25/2018|USA|NA",
+                        "node_attrs": {
+                          "div": 0.15198805269694787,
+                          "num_date": {
+                            "value": 2018.5630136986301,
+                            "confidence": [
+                              2018.5630136986301,
+                              2018.5630136986301
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "north_america": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T9C",
+                              "T41C",
+                              "A58T",
+                              "A79G",
+                              "G108T",
+                              "A120G",
+                              "T123C",
+                              "A143G",
+                              "T159C",
+                              "A189G",
+                              "A243G",
+                              "A286G",
+                              "C345T",
+                              "C380T",
+                              "G432A",
+                              "G525T",
+                              "G591A",
+                              "G630A",
+                              "T642C",
+                              "G684A",
+                              "C710T",
+                              "A761G",
+                              "A776T",
+                              "A796G",
+                              "C803A",
+                              "T805C",
+                              "T816C",
+                              "T819C",
+                              "T843C",
+                              "G871A",
+                              "T915C",
+                              "A994C",
+                              "T997A",
+                              "T1016G",
+                              "G1033A",
+                              "A1075G",
+                              "T1077C",
+                              "G1083A",
+                              "C1112T",
+                              "A1113G",
+                              "A1149G",
+                              "A1156C",
+                              "A1188G",
+                              "C1245A",
+                              "A1302G",
+                              "A1307G",
+                              "C1347A",
+                              "C1350T"
+                            ],
+                            "NA": [
+                              "V13A",
+                              "T19S",
+                              "I26V",
+                              "L35F",
+                              "N47S",
+                              "T95A",
+                              "P126L",
+                              "T236I",
+                              "K253R",
+                              "E258V",
+                              "I265V",
+                              "T267K",
+                              "V290I",
+                              "S331R",
+                              "F332I",
+                              "L338R",
+                              "E344K",
+                              "N358D",
+                              "S370L",
+                              "K385Q",
+                              "K435R"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: V13A, T19S, I26V, L35F, N47S, T95A, P126L, T236I, K253R, E258V, I265V, T267K, V290I, S331R, F332I, L338R, E344K, N358D, S370L, K385Q, K435R"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "div": 0.1501280526969479,
+                          "num_date": {
+                            "value": 2016.1637673105663,
+                            "confidence": [
+                              1977.6501469051614,
+                              2017.685939276876
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "Australia": 0.005580556668802586,
+                              "Bahrain": 0.001844021619616643,
+                              "Japan": 0.0018749616761040541,
+                              "USA": 0.9857239646084685
+                            },
+                            "entropy": 0.0983334785557712
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "asia": 0.01689258707637791,
+                              "europe": 0.01478965373435831,
+                              "north_america": 0.9426627640558088,
+                              "oceania": 0.016171011215308836
+                            },
+                            "entropy": 0.29779451303272475
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A93G",
+                              "G100A",
+                              "T106C",
+                              "G124A",
+                              "A130G",
+                              "A150T",
+                              "C157T",
+                              "G247A",
+                              "C330T",
+                              "C380A",
+                              "T381A",
+                              "G513A",
+                              "C618A",
+                              "T636A",
+                              "C672A",
+                              "A723C",
+                              "T819G",
+                              "T825C",
+                              "C828A",
+                              "C840T",
+                              "C856T",
+                              "C864T",
+                              "T870C",
+                              "A912T",
+                              "T938C",
+                              "G952A",
+                              "A960T",
+                              "C1009A",
+                              "T1020C",
+                              "C1056T",
+                              "G1081T",
+                              "A1103G",
+                              "C1109A",
+                              "C1116T",
+                              "C1131T",
+                              "A1141G",
+                              "C1155T",
+                              "A1156G",
+                              "T1161C",
+                              "A1177T",
+                              "A1200T",
+                              "A1202G",
+                              "G1237A",
+                              "C1254T",
+                              "G1313T"
+                            ],
+                            "NA": [
+                              "V33I",
+                              "D41N",
+                              "N43D",
+                              "Q49H",
+                              "L52F",
+                              "A82T",
+                              "P126Q",
+                              "F205L",
+                              "P285S",
+                              "I312T",
+                              "V317I",
+                              "H336N",
+                              "V360L",
+                              "N367S",
+                              "T369K",
+                              "I380V",
+                              "K385E",
+                              "T392S",
+                              "E399D",
+                              "K400R",
+                              "V412I",
+                              "W437L"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: V33I, D41N, N43D, Q49H, L52F, A82T, P126Q, F205L, P285S, I312T, V317I, H336N, V360L, N367S, T369K, I380V, K385E, T392S, E399D, K400R, V412I, W437L"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/swine/North_Carolina/A02142700/2018|6|02/13/2018|USA|NA",
+                            "node_attrs": {
+                              "div": 0.1545084726969479,
+                              "num_date": {
+                                "value": 2018.1191780821919,
+                                "confidence": [
+                                  2018.1191780821919,
+                                  2018.1191780821919
+                                ]
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "region": {
+                                "value": "north_america",
+                                "confidence": {
+                                  "north_america": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C83T",
+                                  "A297C",
+                                  "G910A",
+                                  "A989C",
+                                  "T1172C",
+                                  "C1178T"
+                                ],
+                                "NA": [
+                                  "A27V",
+                                  "V303I",
+                                  "N329T",
+                                  "L390S",
+                                  "S392L"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NA: A27V, V303I, N329T, L390S, S392L"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/swine/Iowa/A02154763/2018|6|03/01/2018|USA|NA",
+                            "node_attrs": {
+                              "div": 0.1550542326969479,
+                              "num_date": {
+                                "value": 2018.16301369863,
+                                "confidence": [
+                                  2018.16301369863,
+                                  2018.16301369863
+                                ]
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "region": {
+                                "value": "north_america",
+                                "confidence": {
+                                  "north_america": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T285C",
+                                  "A387G",
+                                  "C475T",
+                                  "A852G",
+                                  "T853G",
+                                  "A1136G",
+                                  "C1209T"
+                                ],
+                                "NA": [
+                                  "Y284D",
+                                  "K378R"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NA: Y284D, K378R"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 0.1043690226969479,
+              "num_date": {
+                "value": 2011.6787788598253,
+                "confidence": [
+                  1857.2074356234211,
+                  2016.066991030571
+                ]
+              },
+              "country": {
+                "value": "USA",
+                "confidence": {
+                  "Australia": 0.030268764144852363,
+                  "Bahrain": 0.01096716508845563,
+                  "Japan": 0.012486962405830375,
+                  "USA": 0.915830280450628
+                },
+                "entropy": 0.43027410684953277
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "asia": 0.08640978292161848,
+                  "europe": 0.06007863666959103,
+                  "north_america": 0.7348025117138804,
+                  "oceania": 0.07669240984261115
+                },
+                "entropy": 0.9370890706738237
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A30G",
+                  "G55T",
+                  "C70T",
+                  "G91A",
+                  "C121T",
+                  "G128T",
+                  "A280G",
+                  "A281G",
+                  "A318G",
+                  "C322A",
+                  "A387G",
+                  "G408A",
+                  "A452G",
+                  "A489G",
+                  "A501T",
+                  "T504C",
+                  "T508C",
+                  "T588G",
+                  "A646G",
+                  "G650T",
+                  "A664G",
+                  "T742A",
+                  "A790G",
+                  "T797C",
+                  "C803A",
+                  "G831A",
+                  "C840T",
+                  "T843C",
+                  "C894A",
+                  "T900C",
+                  "A901C",
+                  "T921C",
+                  "T931C",
+                  "T1008C",
+                  "C1014T",
+                  "C1015T",
+                  "G1032A",
+                  "T1122G",
+                  "A1141G",
+                  "C1164G",
+                  "A1173G",
+                  "A1202G",
+                  "A1207G",
+                  "C1209T",
+                  "C1236T",
+                  "A1284T",
+                  "G1293A",
+                  "A1306G",
+                  "G1313T",
+                  "T1392C",
+                  "A1393C",
+                  "C1406A"
+                ],
+                "NA": [
+                  "A18S",
+                  "L23F",
+                  "V30I",
+                  "H40Y",
+                  "C42F",
+                  "N93G",
+                  "H150R",
+                  "I215V",
+                  "G216V",
+                  "N221D",
+                  "S247T",
+                  "I263V",
+                  "I265T",
+                  "T267K",
+                  "Y310H",
+                  "I380V",
+                  "N387K",
+                  "K400R",
+                  "N402D",
+                  "K435E",
+                  "W437L",
+                  "I464L",
+                  "P468H"
+                ]
+              },
+              "labels": {
+                "aa": "NA: A18S, L23F, V30I, H40Y, C42F, N93G, H150R, I215V, G216V, N221D, S247T, I263V, I265T, T267K, Y310H, I380V, N387K, K400R, N402D, K435E, W437L, I464L, P468H"
+              }
+            },
+            "children": [
+              {
+                "name": "A/swine/Indiana/A02256610/2018|6|08/21/2018|USA|NA",
+                "node_attrs": {
+                  "div": 0.1201170726969479,
+                  "num_date": {
+                    "value": 2018.63698630137,
+                    "confidence": [
+                      2018.63698630137,
+                      2018.63698630137
+                    ]
+                  },
+                  "country": {
+                    "value": "USA",
+                    "confidence": {
+                      "USA": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "north_america": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C88T",
+                      "G90A",
+                      "T99G",
+                      "T158A",
+                      "C240T",
+                      "T294C",
+                      "T300A",
+                      "G369A",
+                      "C384A",
+                      "G480A",
+                      "C766T",
+                      "C789A",
+                      "C873A",
+                      "C906T",
+                      "A984G",
+                      "G995A",
+                      "C1002T",
+                      "C1026T",
+                      "A1108G",
+                      "G1390A"
+                    ],
+                    "NA": [
+                      "L52Q",
+                      "D127E",
+                      "S331N",
+                      "T369A",
+                      "D463N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "NA: L52Q, D127E, S331N, T369A, D463N"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "div": 0.1066353726969479,
+                  "num_date": {
+                    "value": 2014.0982161635516,
+                    "confidence": [
+                      1917.7806902412174,
+                      2016.9433657399468
+                    ]
+                  },
+                  "country": {
+                    "value": "USA",
+                    "confidence": {
+                      "Australia": 0.008772862710344522,
+                      "Bahrain": 0.0011609370394506972,
+                      "Japan": 0.0032397273479485935,
+                      "USA": 0.9837566846531522
+                    },
+                    "entropy": 0.10518009297448991
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "asia": 0.05582403905982007,
+                      "europe": 0.019387488508444142,
+                      "north_america": 0.8712900455638948,
+                      "oceania": 0.04201442588635574
+                    },
+                    "entropy": 0.5420487234186956
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A153G",
+                      "T219C",
+                      "C669T",
+                      "G737A",
+                      "G1018A"
+                    ],
+                    "NA": [
+                      "S245N",
+                      "D339N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "NA: S245N, D339N"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "div": 0.1142358926969479,
+                      "num_date": {
+                        "value": 2017.7754758827152,
+                        "confidence": [
+                          1999.7172415774016,
+                          2018.2123287671234
+                        ]
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "USA": 0.9999883869518081
+                        },
+                        "entropy": 0.00015729204449924311
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "north_america": 0.9996292069811349
+                        },
+                        "entropy": 0.0037758641622816554
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A227G",
+                          "C421A",
+                          "T449C",
+                          "T466C",
+                          "C615T",
+                          "C766T",
+                          "T855C",
+                          "A989C",
+                          "T1005C",
+                          "T1014C",
+                          "G1033A"
+                        ],
+                        "NA": [
+                          "K75R",
+                          "L140I",
+                          "V149A",
+                          "Y155H",
+                          "N329T",
+                          "E344K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "NA: K75R, L140I, V149A, Y155H, N329T, E344K"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/Georgia/23/2018|6|03/19/2018|USA|NA",
+                        "node_attrs": {
+                          "div": 0.1149441026969479,
+                          "num_date": {
+                            "value": 2018.2123287671234,
+                            "confidence": [
+                              2018.2123287671234,
+                              2018.2123287671234
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "north_america": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A1145G"
+                            ],
+                            "NA": [
+                              "E381G"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: E381G"
+                          }
+                        }
+                      },
+                      {
+                        "name": "A/Illinois/20/2019|6|03/08/2019|USA|NA",
+                        "node_attrs": {
+                          "div": 0.1163646326969479,
+                          "num_date": {
+                            "value": 2019.182191780822,
+                            "confidence": [
+                              2019.182191780822,
+                              2019.182191780822
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "north_america": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T699C",
+                              "G1040T",
+                              "G1110A"
+                            ],
+                            "NA": [
+                              "G346V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: G346V"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000012",
+                        "node_attrs": {
+                          "div": 0.11707539269694789,
+                          "num_date": {
+                            "value": 2018.2054639783628,
+                            "confidence": [
+                              2013.4835924986592,
+                              2018.9424156021953
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 0.9999926658202776
+                            },
+                            "entropy": 9.762009316841507e-05
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "north_america": 0.9997218670924224
+                            },
+                            "entropy": 0.002630447126472881
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C375T",
+                              "A485G",
+                              "G489A",
+                              "C1159T"
+                            ],
+                            "NA": [
+                              "N161S",
+                              "P386S"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: N161S, P386S"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/New_York/32/2019|6|04/03/2019|USA|NA",
+                            "node_attrs": {
+                              "div": 0.1192040226969479,
+                              "num_date": {
+                                "value": 2019.2534246575342,
+                                "confidence": [
+                                  2019.2534246575342,
+                                  2019.2534246575342
+                                ]
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "region": {
+                                "value": "north_america",
+                                "confidence": {
+                                  "north_america": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T133C",
+                                  "T714C",
+                                  "A1032G"
+                                ],
+                                "NA": [
+                                  "S44P"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NA: S44P"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Italy/8763/2019|6|03/08/2019|Italy|NA",
+                            "node_attrs": {
+                              "div": 0.11849401269694788,
+                              "num_date": {
+                                "value": 2019.182191780822,
+                                "confidence": [
+                                  2019.182191780822,
+                                  2019.182191780822
+                                ]
+                              },
+                              "country": {
+                                "value": "Italy",
+                                "confidence": {
+                                  "Italy": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              },
+                              "region": {
+                                "value": "europe",
+                                "confidence": {
+                                  "europe": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T80C",
+                                  "G1243A"
+                                ],
+                                "NA": [
+                                  "I26T",
+                                  "G414S"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NA: I26T, G414S"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000014",
+                            "node_attrs": {
+                              "div": 0.11778469269694788,
+                              "num_date": {
+                                "value": 2018.8803322178082,
+                                "confidence": [
+                                  2014.2480128491763,
+                                  2019.0029824910987
+                                ]
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 0.9999994622948849
+                                },
+                                "entropy": 8.93975804580658e-06
+                              },
+                              "region": {
+                                "value": "north_america",
+                                "confidence": {
+                                  "north_america": 0.9999842414261875
+                                },
+                                "entropy": 0.00021048929248910448
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T941G"
+                                ],
+                                "NA": [
+                                  "V313G"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NA: V313G"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "A/South_Carolina/8660/2019|6|02/05/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11778705269694789,
+                                  "num_date": {
+                                    "value": 2019.0972602739726,
+                                    "confidence": [
+                                      2019.0972602739726,
+                                      2019.0972602739726
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "A/Montana/03/2019|6|01/03/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11849371269694789,
+                                  "num_date": {
+                                    "value": 2019.0068493150684,
+                                    "confidence": [
+                                      2019.0068493150684,
+                                      2019.0068493150684
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A994G"
+                                    ],
+                                    "NA": [
+                                      "S331G"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NA: S331G"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000016",
+                                "node_attrs": {
+                                  "div": 0.11920353269694789,
+                                  "num_date": {
+                                    "value": 2019.0839892439026,
+                                    "confidence": [
+                                      2016.2288606236007,
+                                      2019.0972602739726
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.9999805839930143
+                                    },
+                                    "entropy": 0.0002584302895962044
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9997888949664475
+                                    },
+                                    "entropy": 0.0022787174355920004
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G513A",
+                                      "T1398C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/West_Virginia/28/2019|6|03/31/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.11991293269694789,
+                                      "num_date": {
+                                        "value": 2019.2452054794521,
+                                        "confidence": [
+                                          2019.2452054794521,
+                                          2019.2452054794521
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C69T"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/Maryland/10/2019|6|02/05/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1192058926969479,
+                                      "num_date": {
+                                        "value": 2019.0972602739726,
+                                        "confidence": [
+                                          2019.0972602739726,
+                                          2019.0972602739726
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000018",
+                            "node_attrs": {
+                              "div": 0.11849648269694789,
+                              "num_date": {
+                                "value": 2018.8763688010079,
+                                "confidence": [
+                                  2014.2725566924732,
+                                  2018.9465753424658
+                                ]
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 0.9999999999999998
+                                },
+                                "entropy": -9.966097191169362e-13
+                              },
+                              "region": {
+                                "value": "north_america",
+                                "confidence": {
+                                  "north_america": 0.9999999999996072
+                                },
+                                "entropy": 1.019374677679172e-11
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A171T",
+                                  "T1071A"
+                                ],
+                                "NA": [
+                                  "D356E"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NA: D356E"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "A/North_Carolina/20/2019|6|03/18/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11991678269694789,
+                                  "num_date": {
+                                    "value": 2019.2095890410958,
+                                    "confidence": [
+                                      2019.2095890410958,
+                                      2019.2095890410958
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A183G",
+                                      "T612C"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/Maryland/8006/2019|6|01/24/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11920618269694788,
+                                  "num_date": {
+                                    "value": 2019.0643835616438,
+                                    "confidence": [
+                                      2019.0643835616438,
+                                      2019.0643835616438
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C87T"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/Oklahoma/8812/2019|6|03/12/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11920612269694789,
+                                  "num_date": {
+                                    "value": 2019.1931506849314,
+                                    "confidence": [
+                                      2019.1931506849314,
+                                      2019.1931506849314
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C1116T"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/Alabama/22/2019|6|04/04/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11991528269694789,
+                                  "num_date": {
+                                    "value": 2019.2561643835616,
+                                    "confidence": [
+                                      2019.2561643835616,
+                                      2019.2561643835616
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T54C",
+                                      "T86C"
+                                    ],
+                                    "NA": [
+                                      "I28T"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NA: I28T"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/Missouri/57/2018|6|12/12/2018|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11920582269694789,
+                                  "num_date": {
+                                    "value": 2018.9465753424658,
+                                    "confidence": [
+                                      2018.9465753424658,
+                                      2018.9465753424658
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A749G"
+                                    ],
+                                    "NA": [
+                                      "K249R"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NA: K249R"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/New_Mexico/05/2019|6|01/22/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11920574269694789,
+                                  "num_date": {
+                                    "value": 2019.058904109589,
+                                    "confidence": [
+                                      2019.058904109589,
+                                      2019.058904109589
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T908C"
+                                    ],
+                                    "NA": [
+                                      "I302T"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NA: I302T"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/Virginia/9140/2019|6|03/13/2019|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11991615269694789,
+                                  "num_date": {
+                                    "value": 2019.195890410959,
+                                    "confidence": [
+                                      2019.195890410959,
+                                      2019.195890410959
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G1078A",
+                                      "G1263A"
+                                    ],
+                                    "NA": [
+                                      "D359N"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NA: D359N"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000028",
+                                "node_attrs": {
+                                  "div": 0.11920630269694789,
+                                  "num_date": {
+                                    "value": 2018.918074019257,
+                                    "confidence": [
+                                      2016.267456375976,
+                                      2019.0424657534247
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.9999805959301656
+                                    },
+                                    "entropy": 0.0002582881463269867
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9997897002493579
+                                    },
+                                    "entropy": 0.0022708644970368093
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A978G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/Mississippi/8276/2019|6|01/16/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1192086626969479,
+                                      "num_date": {
+                                        "value": 2019.0424657534247,
+                                        "confidence": [
+                                          2019.0424657534247,
+                                          2019.0424657534247
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "A/Mississippi/8460/2019|6|01/28/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.11991535269694789,
+                                      "num_date": {
+                                        "value": 2019.0753424657535,
+                                        "confidence": [
+                                          2019.0753424657535,
+                                          2019.0753424657535
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G411A"
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000017",
+                                "node_attrs": {
+                                  "div": 0.11849648269694789,
+                                  "num_date": {
+                                    "value": 2018.9162447659774,
+                                    "confidence": [
+                                      2016.0784479485324,
+                                      2018.9752965471912
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.9999801840373747
+                                    },
+                                    "entropy": 0.00026326552843553735
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9997784505955751
+                                    },
+                                    "entropy": 0.002380512568100046
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/Maine/24/2019|6|04/10/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.11920622269694789,
+                                      "num_date": {
+                                        "value": 2019.272602739726,
+                                        "confidence": [
+                                          2019.272602739726,
+                                          2019.272602739726
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C876T"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000019",
+                                    "node_attrs": {
+                                      "div": 0.11849648269694789,
+                                      "num_date": {
+                                        "value": 2018.956301786584,
+                                        "confidence": [
+                                          2016.1993847482483,
+                                          2018.9794520547946
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 0.9999801840374765
+                                        },
+                                        "entropy": 0.00026326552713984636
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 0.9997784505957714
+                                        },
+                                        "entropy": 0.0023805125661724934
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "A/Alaska/04/2019|6|01/12/2019|USA|NA",
+                                        "node_attrs": {
+                                          "div": 0.1184988426969479,
+                                          "num_date": {
+                                            "value": 2019.031506849315,
+                                            "confidence": [
+                                              2019.031506849315,
+                                              2019.031506849315
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "A/Georgia/33/2018|6|12/24/2018|USA|NA",
+                                        "node_attrs": {
+                                          "div": 0.1184988426969479,
+                                          "num_date": {
+                                            "value": 2018.9794520547946,
+                                            "confidence": [
+                                              2018.9794520547946,
+                                              2018.9794520547946
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000029",
+                    "node_attrs": {
+                      "div": 0.1082522026969479,
+                      "num_date": {
+                        "value": 2015.3548962915663,
+                        "confidence": [
+                          1964.584688140378,
+                          2017.6922569740636
+                        ]
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "Australia": 0.008983729336853983,
+                          "Japan": 0.0044037219145412355,
+                          "USA": 0.9853753981827952
+                        },
+                        "entropy": 0.09072977854023115
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "asia": 0.06110360766182181,
+                          "europe": 0.00847820930573699,
+                          "north_america": 0.8846446584826597,
+                          "oceania": 0.041102968399182684
+                        },
+                        "entropy": 0.4759210397973772
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C144T",
+                          "A989G"
+                        ],
+                        "NA": [
+                          "N329S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "NA: N329S"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000030",
+                        "node_attrs": {
+                          "div": 0.1110960426969479,
+                          "num_date": {
+                            "value": 2017.2266996074761,
+                            "confidence": [
+                              1999.7454699718628,
+                              2018.0162949993467
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "Australia": 0.043246562089682,
+                              "USA": 0.955291222354594
+                            },
+                            "entropy": 0.19128644326174565
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "asia": 0.00842751838408315,
+                              "europe": 0.003160998126737509,
+                              "north_america": 0.879897370250425,
+                              "oceania": 0.10684039820576506
+                            },
+                            "entropy": 0.42067176581620597
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A531G",
+                              "T840C",
+                              "C909T",
+                              "C1159T"
+                            ],
+                            "NA": [
+                              "I176M",
+                              "P386S"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: I176M, P386S"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/Townsville/31/2018|6|08/20/2018|Australia|NA",
+                            "node_attrs": {
+                              "div": 0.1146523626969479,
+                              "num_date": {
+                                "value": 2018.6342465753426,
+                                "confidence": [
+                                  2018.6342465753426,
+                                  2018.6342465753426
+                                ]
+                              },
+                              "country": {
+                                "value": "Australia",
+                                "confidence": {
+                                  "Australia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "region": {
+                                "value": "oceania",
+                                "confidence": {
+                                  "oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A408C",
+                                  "G452A",
+                                  "A747G",
+                                  "A984G",
+                                  "C1112T"
+                                ],
+                                "NA": [
+                                  "R150H",
+                                  "S370L"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NA: R150H, S370L"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000031",
+                            "node_attrs": {
+                              "div": 0.1118093626969479,
+                              "num_date": {
+                                "value": 2017.642354005298,
+                                "confidence": [
+                                  2014.7409693737554,
+                                  2018.020453389875
+                                ]
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "Australia": 0.0011899473250197032,
+                                  "USA": 0.9987533980901447
+                                },
+                                "entropy": 0.00989683483989646
+                              },
+                              "region": {
+                                "value": "north_america",
+                                "confidence": {
+                                  "north_america": 0.9921220492794842,
+                                  "oceania": 0.00623034128681789
+                                },
+                                "entropy": 0.051512797423258545
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G588T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "A/New_Mexico/14/2018|6|02/23/2018|USA|NA",
+                                "node_attrs": {
+                                  "div": 0.11251919269694789,
+                                  "num_date": {
+                                    "value": 2018.1465753424657,
+                                    "confidence": [
+                                      2018.1465753424657,
+                                      2018.1465753424657
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G153A"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000032",
+                                "node_attrs": {
+                                  "div": 0.11251840269694789,
+                                  "num_date": {
+                                    "value": 2017.8428972605552,
+                                    "confidence": [
+                                      2016.5692969064398,
+                                      2018.0246115636296
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.999629257999256
+                                    },
+                                    "entropy": 0.0035511921499793496
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "europe": 0.003876465939102928,
+                                      "north_america": 0.995285705864261
+                                    },
+                                    "entropy": 0.032561232040565755
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T699C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/Germany/7343/2018|6|03/16/2018|Germany|NA",
+                                    "node_attrs": {
+                                      "div": 0.1139379026969479,
+                                      "num_date": {
+                                        "value": 2018.204109589041,
+                                        "confidence": [
+                                          2018.204109589041,
+                                          2018.204109589041
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "Germany",
+                                        "confidence": {
+                                          "Germany": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "europe",
+                                        "confidence": {
+                                          "europe": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G525A",
+                                          "A583G"
+                                        ],
+                                        "NA": [
+                                          "I194V"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NA: I194V"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/Alaska/44/2018|6|05/11/2018|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1132277126969479,
+                                      "num_date": {
+                                        "value": 2018.3575342465754,
+                                        "confidence": [
+                                          2018.3575342465754,
+                                          2018.3575342465754
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A258G"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000022",
+                                    "node_attrs": {
+                                      "div": 0.11251840269694789,
+                                      "num_date": {
+                                        "value": 2017.9479004607692,
+                                        "confidence": [
+                                          2016.9343510299202,
+                                          2018.0287671232877
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "Australia": 0.0010875131772594474,
+                                          "USA": 0.9987822668266776
+                                        },
+                                        "entropy": 0.009921608326926049
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "asia": 0.0014446470435277472,
+                                          "north_america": 0.9936362458584309,
+                                          "oceania": 0.004300197488202911
+                                        },
+                                        "entropy": 0.044020761159482016
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "A/California/SEA0134/2018|6|01/11/2018|USA|NA",
+                                        "node_attrs": {
+                                          "div": 0.11251840269694789,
+                                          "num_date": {
+                                            "value": 2018.0287671232877,
+                                            "confidence": [
+                                              2018.0287671232877,
+                                              2018.0287671232877
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000024",
+                                        "node_attrs": {
+                                          "div": 0.11251840269694789,
+                                          "num_date": {
+                                            "value": 2018.0256305588543,
+                                            "confidence": [
+                                              2016.9305446415358,
+                                              2018.0821458348626
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "Australia": 0.03927874896353822,
+                                              "Bahrain": 0.005865173317980014,
+                                              "USA": 0.9544073127118554
+                                            },
+                                            "entropy": 0.20590585504973208
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "asia": 0.02391453800288771,
+                                              "north_america": 0.9039422068555584,
+                                              "oceania": 0.07066275432153825
+                                            },
+                                            "entropy": 0.3784235622575918
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "A/Brisbane/141/2018|6|09/18/2018|Australia|NA",
+                                            "node_attrs": {
+                                              "div": 0.1132271826969479,
+                                              "num_date": {
+                                                "value": 2018.713698630137,
+                                                "confidence": [
+                                                  2018.713698630137,
+                                                  2018.713698630137
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "Australia",
+                                                "confidence": {
+                                                  "Australia": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12
+                                              },
+                                              "region": {
+                                                "value": "oceania",
+                                                "confidence": {
+                                                  "oceania": 0.9999999999999999
+                                                },
+                                                "entropy": -9.99866855976916e-13
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T714C"
+                                                ]
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000025",
+                                            "node_attrs": {
+                                              "div": 0.11251840269694789,
+                                              "num_date": {
+                                                "value": 2018.0863013698631,
+                                                "confidence": [
+                                                  2017.9744391525396,
+                                                  2018.0863013698631
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA",
+                                                "confidence": {
+                                                  "Australia": 0.012836538713486313,
+                                                  "Bahrain": 0.02791782653329893,
+                                                  "USA": 0.9586408906312737
+                                                },
+                                                "entropy": 0.20162352393701063
+                                              },
+                                              "region": {
+                                                "value": "north_america",
+                                                "confidence": {
+                                                  "asia": 0.08834726832964579,
+                                                  "north_america": 0.8935968630217885,
+                                                  "oceania": 0.01683295265091244
+                                                },
+                                                "entropy": 0.39266934409012416
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "A/Bahrain/RVT0145/2018|6|02/10/2018|Bahrain|NA",
+                                                "node_attrs": {
+                                                  "div": 0.11251840269694789,
+                                                  "num_date": {
+                                                    "value": 2018.1109589041096,
+                                                    "confidence": [
+                                                      2018.1109589041096,
+                                                      2018.1109589041096
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "Bahrain",
+                                                    "confidence": {
+                                                      "Bahrain": 0.9999999999999999
+                                                    },
+                                                    "entropy": -9.99866855976916e-13
+                                                  },
+                                                  "region": {
+                                                    "value": "asia",
+                                                    "confidence": {
+                                                      "asia": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "A/Florida/7214/2018|6|02/01/2018|USA|NA",
+                                                "node_attrs": {
+                                                  "div": 0.11251940269694789,
+                                                  "num_date": {
+                                                    "value": 2018.0863013698631,
+                                                    "confidence": [
+                                                      2018.0863013698631,
+                                                      2018.0863013698631
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "USA",
+                                                    "confidence": {
+                                                      "USA": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12
+                                                  },
+                                                  "region": {
+                                                    "value": "north_america",
+                                                    "confidence": {
+                                                      "north_america": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000037",
+                        "node_attrs": {
+                          "div": 0.1103910626969479,
+                          "num_date": {
+                            "value": 2017.234182479205,
+                            "confidence": [
+                              1983.7163230312372,
+                              2018.0643835616438
+                            ]
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "Australia": 0.002030192208674189,
+                              "Japan": 0.041374318415169184,
+                              "USA": 0.9551991122439198
+                            },
+                            "entropy": 0.1992602274459255
+                          },
+                          "region": {
+                            "value": "north_america",
+                            "confidence": {
+                              "asia": 0.16768785529080452,
+                              "europe": 0.0022796630654093376,
+                              "north_america": 0.8234584089297187,
+                              "oceania": 0.005140763718439163
+                            },
+                            "entropy": 0.5097308913552936
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C380T",
+                              "A663C",
+                              "G910A"
+                            ],
+                            "NA": [
+                              "P126L",
+                              "K220N",
+                              "V303I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NA: P126L, K220N, V303I"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/Japan/6954/2018|6|01/24/2018|Japan|NA",
+                            "node_attrs": {
+                              "div": 0.1103936026969479,
+                              "num_date": {
+                                "value": 2018.0643835616438,
+                                "confidence": [
+                                  2018.0643835616438,
+                                  2018.0643835616438
+                                ]
+                              },
+                              "country": {
+                                "value": "Japan",
+                                "confidence": {
+                                  "Japan": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "region": {
+                                "value": "asia",
+                                "confidence": {
+                                  "asia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "NODE_0000038",
+                            "node_attrs": {
+                              "div": 0.1111008326969479,
+                              "num_date": {
+                                "value": 2017.6417048211301,
+                                "confidence": [
+                                  1986.8426730645137,
+                                  2018.3234017691166
+                                ]
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 0.9998668325447054
+                                },
+                                "entropy": 0.0014349648944986053
+                              },
+                              "region": {
+                                "value": "north_america",
+                                "confidence": {
+                                  "asia": 0.004386977812200479,
+                                  "north_america": 0.9951165905288898
+                                },
+                                "entropy": 0.03299195883573214
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C51A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000043",
+                                "node_attrs": {
+                                  "div": 0.1160890226969479,
+                                  "num_date": {
+                                    "value": 2019.0783459765928,
+                                    "confidence": [
+                                      2013.951930679994,
+                                      2019.8397260273973
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.9998304146858138
+                                    },
+                                    "entropy": 0.0018928561941260634
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9979577892096334
+                                    },
+                                    "entropy": 0.017350637313301685
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A141G",
+                                      "G281A",
+                                      "T378C",
+                                      "C402A",
+                                      "T741C",
+                                      "A963G",
+                                      "T1409C"
+                                    ],
+                                    "NA": [
+                                      "G93D",
+                                      "I469T"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NA: G93D, I469T"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/New_Jersey/13/2020|6|02/16/2020|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1175089026969479,
+                                      "num_date": {
+                                        "value": 2020.127049180328,
+                                        "confidence": [
+                                          2020.127049180328,
+                                          2020.127049180328
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A946C",
+                                          "G1033A"
+                                        ],
+                                        "NA": [
+                                          "S315R",
+                                          "E344K"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NA: S315R, E344K"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/California/191/2019|6|11/03/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1182215726969479,
+                                      "num_date": {
+                                        "value": 2019.8397260273973,
+                                        "confidence": [
+                                          2019.8397260273973,
+                                          2019.8397260273973
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A232C",
+                                          "G903A",
+                                          "A1157G"
+                                        ],
+                                        "NA": [
+                                          "I77L",
+                                          "N385S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NA: I77L, N385S"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000039",
+                                "node_attrs": {
+                                  "div": 0.1118106226969479,
+                                  "num_date": {
+                                    "value": 2017.8564407904385,
+                                    "confidence": [
+                                      1991.4476145132408,
+                                      2018.3993131023026
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "Australia": 0.0011798366208760234,
+                                      "USA": 0.9987912170277813
+                                    },
+                                    "entropy": 0.00951104121880371
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "Australia": 0.003185507985186279,
+                                      "north_america": 0.9955485455621366
+                                    },
+                                    "entropy": 0.03229190037240025
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G684A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000040",
+                                    "node_attrs": {
+                                      "div": 0.1125176426969479,
+                                      "num_date": {
+                                        "value": 2018.1949475709357,
+                                        "confidence": [
+                                          1995.2029763308021,
+                                          2018.6405363243362
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 0.9997423336343273
+                                        },
+                                        "entropy": 0.0026129857975746634
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 0.997963136507259
+                                        },
+                                        "entropy": 0.017389500912196116
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T468C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "A/Michigan/414/2018|6|12/10/2018|USA|NA",
+                                        "node_attrs": {
+                                          "div": 0.11394149269694791,
+                                          "num_date": {
+                                            "value": 2018.941095890411,
+                                            "confidence": [
+                                              2018.941095890411,
+                                              2018.941095890411
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C429T",
+                                              "C801T"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "A/Minnesota/09/2020|6|02/09/2020|USA|NA",
+                                        "node_attrs": {
+                                          "div": 0.11893625269694791,
+                                          "num_date": {
+                                            "value": 2020.1079234972678,
+                                            "confidence": [
+                                              2020.1079234972678,
+                                              2020.1079234972678
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T729C",
+                                              "G790A",
+                                              "G834A",
+                                              "T1020C",
+                                              "G1033A",
+                                              "T1125C",
+                                              "T1239C",
+                                              "C1311T",
+                                              "C1347A"
+                                            ],
+                                            "NA": [
+                                              "V263I",
+                                              "E344K"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "NA: V263I, E344K"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000041",
+                                    "node_attrs": {
+                                      "div": 0.1125223526969479,
+                                      "num_date": {
+                                        "value": 2018.1932444419979,
+                                        "confidence": [
+                                          1999.2944453560863,
+                                          2018.4424577271789
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "Australia": 0.038794051171581516,
+                                          "USA": 0.960845048597215
+                                        },
+                                        "entropy": 0.16787950478518565
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "Australia": 0.06065411306511532,
+                                          "asia": 0.0013174316651342038,
+                                          "north_america": 0.936031478621262,
+                                          "oceania": 0.001053311264103623
+                                        },
+                                        "entropy": 0.25439665994528043
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G1017T"
+                                        ],
+                                        "NA": [
+                                          "L338F"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NA: L338F"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "A/Maine/43/2018|6|12/19/2018|USA|NA",
+                                        "node_attrs": {
+                                          "div": 0.11465451269694789,
+                                          "num_date": {
+                                            "value": 2018.9657534246576,
+                                            "confidence": [
+                                              2018.9657534246576,
+                                              2018.9657534246576
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C137T",
+                                              "C330T",
+                                              "C1257A"
+                                            ],
+                                            "NA": [
+                                              "P45L"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "NA: P45L"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "A/Victoria/741/2018|6|09/13/2018|Australia|NA",
+                                        "node_attrs": {
+                                          "div": 0.1153674326969479,
+                                          "num_date": {
+                                            "value": 2018.7,
+                                            "confidence": [
+                                              2018.7,
+                                              2018.7
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "Australia",
+                                            "confidence": {
+                                              "Australia": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          },
+                                          "region": {
+                                            "value": "Australia",
+                                            "confidence": {
+                                              "Australia": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G280A",
+                                              "T501C",
+                                              "T1016A",
+                                              "A1302G"
+                                            ],
+                                            "NA": [
+                                              "G93S",
+                                              "F338Y"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "NA: G93S, F338Y"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000044",
+                                "node_attrs": {
+                                  "div": 0.1146559626969479,
+                                  "num_date": {
+                                    "value": 2018.8758897820417,
+                                    "confidence": [
+                                      2014.1899024301877,
+                                      2019.3892461537253
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.9999998722029231
+                                    },
+                                    "entropy": 2.27403142341978e-06
+                                  },
+                                  "region": {
+                                    "value": "north_america",
+                                    "confidence": {
+                                      "north_america": 0.9999895783064976
+                                    },
+                                    "entropy": 0.00014250363695268617
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A750G",
+                                      "T756C",
+                                      "T948G",
+                                      "T1020C",
+                                      "G1033A"
+                                    ],
+                                    "NA": [
+                                      "S315R",
+                                      "E344K"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NA: S315R, E344K"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/Massachusetts/42/2019|6|11/22/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1153650526969479,
+                                      "num_date": {
+                                        "value": 2019.8917808219178,
+                                        "confidence": [
+                                          2019.8917808219178,
+                                          2019.8917808219178
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G318T"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/Vermont/03/2020|6|01/08/2020|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1167863126969479,
+                                      "num_date": {
+                                        "value": 2020.0204918032787,
+                                        "confidence": [
+                                          2020.0204918032787,
+                                          2020.0204918032787
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G309A",
+                                          "C1101A",
+                                          "C1405T"
+                                        ],
+                                        "NA": [
+                                          "H468Y"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NA: H468Y"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/Montana/38/2019|6|07/14/2019|USA|NA",
+                                    "node_attrs": {
+                                      "div": 0.1174979426969479,
+                                      "num_date": {
+                                        "value": 2019.5328767123287,
+                                        "confidence": [
+                                          2019.5328767123287,
+                                          2019.5328767123287
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G452T",
+                                          "G1092A",
+                                          "A1136G",
+                                          "G1198A"
+                                        ],
+                                        "NA": [
+                                          "R150L",
+                                          "K378R",
+                                          "D399N"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NA: R150L, K378R, D399N"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000047",
+                                    "node_attrs": {
+                                      "div": 0.1153652526969479,
+                                      "num_date": {
+                                        "value": 2019.0808085074655,
+                                        "confidence": [
+                                          2016.1364815280147,
+                                          2019.5259815965062
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 0.9999756662219023
+                                        },
+                                        "entropy": 0.00031832058735991665
+                                      },
+                                      "region": {
+                                        "value": "north_america",
+                                        "confidence": {
+                                          "north_america": 0.9997276348967958
+                                        },
+                                        "entropy": 0.002870292935762562
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C429T"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "A/Florida/101/2019|6|09/19/2019|USA|NA",
+                                        "node_attrs": {
+                                          "div": 0.1167842626969479,
+                                          "num_date": {
+                                            "value": 2019.7164383561644,
+                                            "confidence": [
+                                              2019.7164383561644,
+                                              2019.7164383561644
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T133C",
+                                              "T300C"
+                                            ],
+                                            "NA": [
+                                              "S44P"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "NA: S44P"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000033",
+                                        "node_attrs": {
+                                          "div": 0.1153652526969479,
+                                          "num_date": {
+                                            "value": 2019.2539571928096,
+                                            "confidence": [
+                                              2016.1576440348833,
+                                              2019.5301369863014
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 0.9999800903229382
+                                            },
+                                            "entropy": 0.00026439727743643443
+                                          },
+                                          "region": {
+                                            "value": "north_america",
+                                            "confidence": {
+                                              "north_america": 0.999775870594496
+                                            },
+                                            "entropy": 0.0024055780182168844
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "A/Minnesota/48/2019|6|07/13/2019|USA|NA",
+                                            "node_attrs": {
+                                              "div": 0.1160741626969479,
+                                              "num_date": {
+                                                "value": 2019.5301369863014,
+                                                "confidence": [
+                                                  2019.5301369863014,
+                                                  2019.5301369863014
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA",
+                                                "confidence": {
+                                                  "USA": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12
+                                              },
+                                              "region": {
+                                                "value": "north_america",
+                                                "confidence": {
+                                                  "north_america": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G1040A"
+                                                ],
+                                                "NA": [
+                                                  "G346D"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "NA: G346D"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "A/Montana/42/2019|6|09/13/2019|USA|NA",
+                                            "node_attrs": {
+                                              "div": 0.1153662526969479,
+                                              "num_date": {
+                                                "value": 2019.7,
+                                                "confidence": [
+                                                  2019.7,
+                                                  2019.7
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA",
+                                                "confidence": {
+                                                  "USA": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12
+                                              },
+                                              "region": {
+                                                "value": "north_america",
+                                                "confidence": {
+                                                  "north_america": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

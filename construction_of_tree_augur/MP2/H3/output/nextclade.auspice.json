@@ -1,0 +1,1369 @@
+{
+  "meta": {
+    "extensions": null,
+    "colorings": [
+      {
+        "type": "categorical",
+        "key": "Node type",
+        "title": "Node type",
+        "scale": [
+          [
+            "New",
+            "#ff6961"
+          ],
+          [
+            "Reference",
+            "#999999"
+          ]
+        ]
+      },
+      {
+        "type": "categorical",
+        "key": "QC Status",
+        "title": "QC Status",
+        "scale": [
+          [
+            "good",
+            "#417C52"
+          ],
+          [
+            "mediocre",
+            "#cab44d"
+          ],
+          [
+            "bad",
+            "#CA738E"
+          ]
+        ]
+      },
+      {
+        "type": "categorical",
+        "key": "Has PCR primer changes",
+        "title": "Has PCR primer changes",
+        "scale": [
+          [
+            "Yes",
+            "#6961ff"
+          ],
+          [
+            "No",
+            "#999999"
+          ]
+        ]
+      },
+      {
+        "type": "categorical",
+        "key": "clade_membership",
+        "title": "Clade"
+      },
+      {
+        "type": "categorical",
+        "key": "gt",
+        "title": "Genotype"
+      },
+      {
+        "type": "continuous",
+        "key": "num_date",
+        "title": "Date"
+      },
+      {
+        "type": "categorical",
+        "key": "region",
+        "title": "Region",
+        "scale": [
+          [
+            "Unknown ",
+            "#999999"
+          ],
+          [
+            "south_america",
+            "#E56C2F"
+          ],
+          [
+            "north_america",
+            "#DC2F24"
+          ]
+        ]
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "filters": [
+      "clade_membership",
+      "Node type",
+      "QC Status",
+      "Has PCR primer changes",
+      "country",
+      "region",
+      "author"
+    ],
+    "display_defaults": {
+      "branch_label": "clade",
+      "color_by": "clade_membership",
+      "distance_measure": "div"
+    },
+    "title": "Tutorial Nextstrain build for Zika virus",
+    "updated": "2022-09-17",
+    "build_url": "https://github.com/nextstrain/zika-tutorial",
+    "maintainers": [
+      {
+        "name": "Trevor Bedford",
+        "url": "http://bedford.io/team/trevor-bedford/"
+      }
+    ],
+    "genome_annotations": {
+      "nuc": {
+        "end": 295,
+        "start": 1,
+        "strand": "+",
+        "seqid": "data/influenza_MP_outgroup.gb",
+        "type": "source"
+      },
+      "MA2": {
+        "end": 294,
+        "seqid": "data/influenza_MP_outgroup.gb",
+        "start": 2,
+        "strand": "+",
+        "type": "CDS"
+      }
+    }
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "node_attrs": {
+      "div": 0.0,
+      "clade_membership": {
+        "value": "unassigned"
+      },
+      "Node type": {
+        "value": "Reference"
+      },
+      "region": {
+        "value": "north_america",
+        "confidence": {
+          "asia": 0.1808763254781008,
+          "north_america": 0.7034630395837609,
+          "south_america": 0.11566063493813836
+        },
+        "entropy": 0.8062150019230596
+      },
+      "num_date": {
+        "value": 2017.7218664771224,
+        "confidence": [
+          2002.3217421894983,
+          2017.998316394856
+        ]
+      }
+    },
+    "children": [
+      {
+        "name": "A/California/142/2019|7|05/22/2019|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [
+              "V27I",
+              "Y52C"
+            ],
+            "nuc": [
+              "T15A",
+              "C75T",
+              "G82A",
+              "A158G",
+              "C231T",
+              "A288G"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.020202020202020204,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 858)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/Texas/78/2018|7|02/02/2018|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [],
+            "nuc": [
+              "T15A",
+              "C231T"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.006734006734006734,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 874)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/Osorno/PUC_MVL_COL150/2018|7|2018|Chile|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [],
+            "nuc": [
+              "T15A",
+              "C231T"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.006734006734006734,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 874)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/Nevada/8293/2019|7|01/30/2019|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [
+              "V27I",
+              "Y52C"
+            ],
+            "nuc": [
+              "T15A",
+              "C75T",
+              "G82A",
+              "A158G",
+              "C231T",
+              "A288G"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.020202020202020204,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 858)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/New_Mexico/08/2019|7|01/28/2019|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [
+              "P25L"
+            ],
+            "nuc": [
+              "C77T",
+              "T138C"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.006734006734006734,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 874)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/District_Of_Columbia/58/2019|7|11/28/2019|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [],
+            "nuc": [
+              "A204T"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.003367003367003367,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 878)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/Texas/9431/2019|7|02/06/2019|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [
+              "V27I",
+              "Y52C"
+            ],
+            "nuc": [
+              "T15A",
+              "C75T",
+              "G82A",
+              "A158G",
+              "C231T",
+              "A288G"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.020202020202020204,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 858)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/Louisiana/15/2020|7|02/05/2020|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [
+              "V27I",
+              "Y52C"
+            ],
+            "nuc": [
+              "T15A",
+              "C75T",
+              "G82A",
+              "A158G",
+              "C231T",
+              "A288G"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.020202020202020204,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 858)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/Hawaii/18/2018|7|02/08/2018|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [],
+            "nuc": [
+              "T15A",
+              "C231T"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.006734006734006734,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 874)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/Wuhan/2153/2018|7|02/2018|China|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [],
+            "nuc": []
+          }
+        },
+        "node_attrs": {
+          "div": 0.0,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 882)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": ""
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "A/South_Carolina/NHRC_OID_JX42387/2019|7|02/04/2019|USA|M1_new",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [
+              "P25L"
+            ],
+            "nuc": [
+              "C77T",
+              "T138C"
+            ]
+          }
+        },
+        "node_attrs": {
+          "div": 0.006734006734006734,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "New"
+          },
+          "region": {
+            "value": "Unknown "
+          },
+          "country": {
+            "value": "Unknown "
+          },
+          "division": {
+            "value": "Unknown "
+          },
+          "Alignment": {
+            "value": "start: 3, end: 297 (score: 874)"
+          },
+          "Missing": {
+            "value": ""
+          },
+          "Gaps": {
+            "value": ""
+          },
+          "Non-ACGTNs": {
+            "value": "Y:108"
+          },
+          "Has PCR primer changes": {
+            "value": "Yes"
+          },
+          "PCR primer changes": {
+            "value": ""
+          },
+          "QC Status": {
+            "value": "good"
+          },
+          "Missing genes": {
+            "value": ""
+          }
+        }
+      },
+      {
+        "name": "NODE_0000001",
+        "branch_attrs": {
+          "mutations": {
+            "MA2": [
+              "V27I",
+              "Y52C"
+            ],
+            "nuc": [
+              "C73T",
+              "G80A",
+              "A156G",
+              "A286G"
+            ]
+          },
+          "labels": {
+            "aa": "MA2: V27I, Y52C"
+          }
+        },
+        "node_attrs": {
+          "div": 0.013663653151194808,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "Reference"
+          },
+          "region": {
+            "value": "north_america",
+            "confidence": {
+              "north_america": 0.9996053790787318
+            },
+            "entropy": 0.0037510803484696463
+          },
+          "num_date": {
+            "value": 2019.069540390718,
+            "confidence": [
+              2018.504075769144,
+              2019.080821917808
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "A/Nevada/8293/2019|7|01/30/2019|USA|M1",
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "node_attrs": {
+              "div": 0.013663653151194808,
+              "clade_membership": {
+                "value": "unassigned"
+              },
+              "Node type": {
+                "value": "Reference"
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "north_america": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              },
+              "num_date": {
+                "value": 2019.080821917808,
+                "confidence": [
+                  2019.080821917808,
+                  2019.080821917808
+                ]
+              }
+            }
+          },
+          {
+            "name": "A/Texas/9431/2019|7|02/06/2019|USA|M1",
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "node_attrs": {
+              "div": 0.013663653151194808,
+              "clade_membership": {
+                "value": "unassigned"
+              },
+              "Node type": {
+                "value": "Reference"
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "north_america": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              },
+              "num_date": {
+                "value": 2019.1,
+                "confidence": [
+                  2019.1,
+                  2019.1
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000002",
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "node_attrs": {
+              "div": 0.013663653151194808,
+              "clade_membership": {
+                "value": "unassigned"
+              },
+              "Node type": {
+                "value": "Reference"
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "north_america": 0.9982694394275876
+                },
+                "entropy": 0.013920484539755754
+              },
+              "num_date": {
+                "value": 2019.3141723299564,
+                "confidence": [
+                  2019.003689049368,
+                  2019.3876712328768
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "A/California/142/2019|7|05/22/2019|USA|M1",
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "node_attrs": {
+                  "div": 0.013663653151194808,
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "Node type": {
+                    "value": "Reference"
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "north_america": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "num_date": {
+                    "value": 2019.3876712328768,
+                    "confidence": [
+                      2019.3876712328768,
+                      2019.3876712328768
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "A/Louisiana/15/2020|7|02/05/2020|USA|M1",
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "node_attrs": {
+                  "div": 0.013663653151194808,
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "Node type": {
+                    "value": "Reference"
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "north_america": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "num_date": {
+                    "value": 2020.0969945355191,
+                    "confidence": [
+                      2020.0969945355191,
+                      2020.0969945355191
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000010",
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "node_attrs": {
+          "div": 1.2527377719100265e-19,
+          "clade_membership": {
+            "value": "unassigned"
+          },
+          "Node type": {
+            "value": "Reference"
+          },
+          "region": {
+            "value": "north_america",
+            "confidence": {
+              "asia": 0.19405841551716155,
+              "north_america": 0.6874256928870007,
+              "south_america": 0.11851589159583752
+            },
+            "entropy": 0.8285854359261746
+          },
+          "num_date": {
+            "value": 2017.7218664771224,
+            "confidence": [
+              2002.3749788926095,
+              2018.0001176954056
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "NODE_0000004",
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "node_attrs": {
+              "div": 2.505475543820053e-19,
+              "clade_membership": {
+                "value": "unassigned"
+              },
+              "Node type": {
+                "value": "Reference"
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "asia": 0.04066508318355838,
+                  "north_america": 0.7220004294242495,
+                  "south_america": 0.23733448739219223
+                },
+                "entropy": 0.7067567270059412
+              },
+              "num_date": {
+                "value": 2017.9876168511555,
+                "confidence": [
+                  2017.7515184985484,
+                  2018.0013698630137
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "A/Osorno/PUC_MVL_COL150/2018|7|2018|Chile|M1",
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "node_attrs": {
+                  "div": 3.7582133157300795e-19,
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "Node type": {
+                    "value": "Reference"
+                  },
+                  "region": {
+                    "value": "south_america",
+                    "confidence": {
+                      "south_america": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "num_date": {
+                    "value": 2018.0013698630137,
+                    "confidence": [
+                      2018.0013698630137,
+                      2018.0013698630137
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000005",
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "node_attrs": {
+                  "div": 3.7582133157300795e-19,
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "Node type": {
+                    "value": "Reference"
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "asia": 0.0027752852465201486,
+                      "north_america": 0.9844970885619636,
+                      "south_america": 0.012727626191516276
+                    },
+                    "entropy": 0.08726333523528883
+                  },
+                  "num_date": {
+                    "value": 2018.0184992069924,
+                    "confidence": [
+                      2017.9340654877872,
+                      2018.0890410958905
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Texas/78/2018|7|02/02/2018|USA|M1",
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "node_attrs": {
+                      "div": 5.010951087640106e-19,
+                      "clade_membership": {
+                        "value": "unassigned"
+                      },
+                      "Node type": {
+                        "value": "Reference"
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "north_america": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      },
+                      "num_date": {
+                        "value": 2018.0890410958905,
+                        "confidence": [
+                          2018.0890410958905,
+                          2018.0890410958905
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/Hawaii/18/2018|7|02/08/2018|USA|M1",
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "node_attrs": {
+                      "div": 5.010951087640106e-19,
+                      "clade_membership": {
+                        "value": "unassigned"
+                      },
+                      "Node type": {
+                        "value": "Reference"
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "north_america": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      },
+                      "num_date": {
+                        "value": 2018.1054794520549,
+                        "confidence": [
+                          2018.1054794520549,
+                          2018.1054794520549
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000007",
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A13T",
+                  "T229C"
+                ]
+              }
+            },
+            "node_attrs": {
+              "div": 0.006808355651868263,
+              "clade_membership": {
+                "value": "unassigned"
+              },
+              "Node type": {
+                "value": "Reference"
+              },
+              "region": {
+                "value": "north_america",
+                "confidence": {
+                  "asia": 0.4634950413027996,
+                  "north_america": 0.5026883364657679,
+                  "south_america": 0.03381662223143256
+                },
+                "entropy": 0.8166806418419615
+              },
+              "num_date": {
+                "value": 2018.004109589041,
+                "confidence": [
+                  2017.922333501541,
+                  2018.004109589041
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "A/District_Of_Columbia/58/2019|7|11/28/2019|USA|M1",
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A202T"
+                    ]
+                  }
+                },
+                "node_attrs": {
+                  "div": 0.010205964997904025,
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "Node type": {
+                    "value": "Reference"
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "north_america": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "num_date": {
+                    "value": 2019.9082191780824,
+                    "confidence": [
+                      2019.9082191780824,
+                      2019.9082191780824
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "A/Wuhan/2153/2018|7|02/2018|China|M1",
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "node_attrs": {
+                  "div": 0.006808355651868263,
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "Node type": {
+                    "value": "Reference"
+                  },
+                  "region": {
+                    "value": "asia",
+                    "confidence": {
+                      "asia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "num_date": {
+                    "value": 2018.004109589041,
+                    "confidence": [
+                      2018.004109589041,
+                      2018.004109589041
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000009",
+                "branch_attrs": {
+                  "mutations": {
+                    "MA2": [
+                      "P25L"
+                    ],
+                    "nuc": [
+                      "C75T",
+                      "T136C"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "MA2: P25L"
+                  }
+                },
+                "node_attrs": {
+                  "div": 0.013612120409978872,
+                  "clade_membership": {
+                    "value": "unassigned"
+                  },
+                  "Node type": {
+                    "value": "Reference"
+                  },
+                  "region": {
+                    "value": "north_america",
+                    "confidence": {
+                      "asia": 0.00451616041937566,
+                      "north_america": 0.9943636302091916,
+                      "south_america": 0.0011202093714325523
+                    },
+                    "entropy": 0.03761911324891855
+                  },
+                  "num_date": {
+                    "value": 2019.0075403028827,
+                    "confidence": [
+                      2018.67895295147,
+                      2019.0753424657537
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/New_Mexico/08/2019|7|01/28/2019|USA|M1",
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "node_attrs": {
+                      "div": 0.013612120409978872,
+                      "clade_membership": {
+                        "value": "unassigned"
+                      },
+                      "Node type": {
+                        "value": "Reference"
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "north_america": 1.0
+                        },
+                        "entropy": -9.99866855976916e-13
+                      },
+                      "num_date": {
+                        "value": 2019.0753424657537,
+                        "confidence": [
+                          2019.0753424657537,
+                          2019.0753424657537
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/South_Carolina/NHRC_OID_JX42387/2019|7|02/04/2019|USA|M1",
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "node_attrs": {
+                      "div": 0.013612120409978872,
+                      "clade_membership": {
+                        "value": "unassigned"
+                      },
+                      "Node type": {
+                        "value": "Reference"
+                      },
+                      "region": {
+                        "value": "north_america",
+                        "confidence": {
+                          "north_america": 1.0
+                        },
+                        "entropy": -9.99866855976916e-13
+                      },
+                      "num_date": {
+                        "value": 2019.0945205479452,
+                        "confidence": [
+                          2019.0945205479452,
+                          2019.0945205479452
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "version": "v2"
+}

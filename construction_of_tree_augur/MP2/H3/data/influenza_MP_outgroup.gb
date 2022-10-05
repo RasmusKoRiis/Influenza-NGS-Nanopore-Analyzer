@@ -1,0 +1,50 @@
+LOCUS       CY114383             295 bp    DNA              VRL 05-JUL-2016
+DEFINITION  CY114383
+ACCESSION   XXXXXX
+VERSION     X  X
+KEYWORDS    .
+SOURCE      influenza
+  ORGANISM  influenza
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;
+            Flaviviridae; Flavivirus.
+REFERENCE   1  
+  AUTHORS   X
+  TITLE     x
+  JOURNAL   X
+REFERENCE   1
+  AUTHORS   X
+  TITLE     X
+  JOURNAL   X
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: X
+            Coverage              :: X
+            Sequencing Technology :: X
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..295
+                     /collection_date="25-Oct-2013"
+                     /country="usa"
+                     /db_xref="taxon:64320"
+                     /host="Homo sapiens"
+                     /isolation_source="serum"
+                     /mol_type="genomic RNA"
+                     /organism="Zika virus"
+                     /strain="PF13/251013-18"
+     5'UTR           1..1
+     CDS             2..294
+                     /codon_start=2
+                     /db_xref="GI:1040461414"
+                     /product="polyprotein"
+                     /protein_id="ANN44857.1"
+                     /translation="MSLLTEVETPIRNEWGCRCNDSSDPLVVAANIIGILHLILWILDRLFFKCVYRLFKHGLKRGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE"
+     CDS             2..294
+                     /product="MA2"
+                     /gene="MA2"
+     3'UTR           295..295
+ORIGIN
+        1 tttatgagccttc taaccgaggt cgaaacacct atcagaaacg aatgggggtg cagatgcaac
+       61 gattcaagtg acccgcttgt tgttgccgcg aatatcattg ggatcttgca cttgatattg 
+      121 tggattcttg atcgtctttt tttcaaatgc gtctatcgac tcttcaaaca cggccttaaa
+      181 agaggccctt ctacggaagg agtacctgag tctatgaggg aagaatatcg aaaggaacag
+      241 cagaatgctg tggatgctga cgacagtcat tttgtcagca tagagttgga gtaattt
+//

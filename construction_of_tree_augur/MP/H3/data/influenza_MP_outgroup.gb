@@ -1,0 +1,62 @@
+LOCUS       CY114383             999 bp    DNA              VRL 05-JUL-2016
+DEFINITION  CY114383
+ACCESSION   XXXXXX
+VERSION     X  X
+KEYWORDS    .
+SOURCE      influenza
+  ORGANISM  influenza
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;
+            Flaviviridae; Flavivirus.
+REFERENCE   1  
+  AUTHORS   X
+  TITLE     x
+  JOURNAL   X
+REFERENCE   1
+  AUTHORS   X
+  TITLE     X
+  JOURNAL   X
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: X
+            Coverage              :: X
+            Sequencing Technology :: X
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..769
+                     /collection_date="25-Oct-2013"
+                     /country="usa"
+                     /db_xref="taxon:64320"
+                     /host="Homo sapiens"
+                     /isolation_source="serum"
+                     /mol_type="genomic RNA"
+                     /organism="Zika virus"
+                     /strain="PF13/251013-18"
+     5'UTR           1..10
+     CDS             11..769 
+                     /codon_start=1
+                     /db_xref="GI:1040461414"
+                     /product="polyprotein"
+                     /protein_id="ANN44857.1"
+                     /translation="MSLLTEVETYVLSIVPSGPLKAEIAQRLEDVFAGKNTDLEALMEWLKTRPILSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDKAVKLYRKLKREITFHGAKEIALSYSAGALASCMGLIYNRMGAVTTEVAFGLVCATCEQIADSQHRSHRQMVATTNPLIRHENRMVLASTTAKAMEQMAGSSEQAAEAMEIASQARQMVQAMRAIGTHPSSSTGLRDDLLENLQTYQKRMGVQMQRFK"
+     CDS             11..769
+                     /product="NA"
+                     /gene="NA"
+     3'UTR           770..999
+ORIGIN
+        1 atattgaaag atgagccttc taaccgaggt cgaaacgtat gttctctcta tcgttccatc 
+       61 aggccccctc aaagccgaga tcgcgcagag acttgaagat gtctttgctg ggaaaaacac 
+      121 agatcttgag gctctcatgg aatggctaaa gacaagacca attctgtcac ctctgactaa
+      181 ggggattttg gggtttgtgt tcacgctcac cgtgcccagt gagcgaggac tgcagcgtag
+      241 acgctttgtc caaaatgccc tcaatgggaa tggagatcca aataacatgg acaaagcagt 
+      301 taaactgtat aggaaactta agagggagat aacgttccat ggggccaaag aaatagctct
+      361 cagttattct gctggtgcac ttgccagttg catgggcctc atatacaata ggatgggggc 
+      421 tgtaaccact gaagtggcat ttggcctggt atgtgcaaca tgtgagcaga ttgctgactc
+      481 ccagcacagg tctcataggc aaatggtggc aacaaccaat ccattaataa gacatgagaa
+      541 cagaatggtt ttggccagca ctacagctaa ggctatggag caaatggctg gatcaagtga
+      601 gcaggcagcg gaggccatgg agattgctag tcaggccagg cagatggtgc aggcaatgag
+      661 agccattggg actcatccta gttccagtac tggtctaaga gatgatcttc ttgaaaattt
+      721 gcagacctat cagaaacgaa tgggggtgca gatgcaacga ttcaagtgac ccgcttgttg
+      781 ttgccgcgaa tatcattggg atcttgcact tgatattgtg gattcttgat cgtctttttt
+      841 tcaaatgcgt ctatcgactc ttcaaacacg gccttaaaag aggcccttct acggaaggag
+      901 tacctgagtc tatgagggaa gaatatcgaa aggaacagca gaatgctgtg gatgctgacg
+      961 acagtcattt tgtcagcata gagttggagt aaaaaacta
+//

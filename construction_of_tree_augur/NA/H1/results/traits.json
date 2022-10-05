@@ -1,0 +1,734 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "17.1.0"
+  },
+  "models": {
+    "region": {
+      "alphabet": [
+        "asia",
+        "europe",
+        "north_america",
+        "south_america",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.14777328860642527,
+        0.15597551281486297,
+        0.5677252563626795,
+        0.12852594221603236
+      ],
+      "rate": 73.74292175876482,
+      "transition_matrix": [
+        [
+          0.0,
+          1.126493865832405,
+          2.2633520180298325,
+          0.8536384932329426
+        ],
+        [
+          1.126493865832405,
+          0.0,
+          1.6076488622983576,
+          0.8513107707481604
+        ],
+        [
+          2.2633520180298325,
+          1.6076488622983576,
+          0.0,
+          1.4871569524231412
+        ],
+        [
+          0.8536384932329426,
+          0.8513107707481604,
+          1.4871569524231412,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "A/Alaska/17/2019|6|02/13/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Arizona/19/2018|6|03/06/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/California/115/2019|6|03/01/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/California/21/2019|6|01/08/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/California/224/2019|6|11/27/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/California/228/2019|6|12/05/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/California/236/2019|6|11/29/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/California/26/2019|6|01/18/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/California/82/2018|6|11/16/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Colorado/19/2018|6|03/11/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Colorado/7679/2018|6|12/20/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Connecticut/31/2017|6|10/07/2017|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Delaware/13/2019|6|02/05/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Florida/48/2018|6|04/03/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Florida/81/2018|6|08/30/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Germany/9675/2019|6|04/03/2019|Germany|NA": {
+      "country": null,
+      "region": "europe",
+      "region_confidence": {
+        "europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Hawaii/54/2019|6|07/07/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Hulunbuir/1903/2019|6|01/20/2019|China|NA": {
+      "country": null,
+      "region": "asia",
+      "region_confidence": {
+        "asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/Idaho/07/2019|6|01/31/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Idaho/21/2018|6|04/24/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Iowa/52/2017|6|12/25/2017|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Italy/8943/2019|6|01/25/2019|Italy|NA": {
+      "country": null,
+      "region": "europe",
+      "region_confidence": {
+        "europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/Japan/7845/2018|6|12/28/2018|Japan|NA": {
+      "country": null,
+      "region": "asia",
+      "region_confidence": {
+        "asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Louisiana/05/2019|6|01/17/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Mexico/15017/2017|6|01/26/2017|Mexico|NA": {
+      "country": null,
+      "region": "south_america",
+      "region_confidence": {
+        "south_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Missouri/8775/2019|6|02/28/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Montana/41/2018|6|12/03/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Nebraska/05/2018|6|01/22/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Nevada/01/2018|6|03/18/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Nevada/20/2020|6|03/09/2020|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Nevada/29/2019|6|05/17/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/New_Hampshire/38/2019|6|12/14/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/New_Jersey/9387/2019|6|04/03/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/New_Mexico/8027/2019|6|01/11/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/North_Carolina/11/2017|6|02/09/2017|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Ohio/8047/2019|6|01/16/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Oklahoma/05/2020|6|02/09/2020|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Oregon/03/2019|6|01/28/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Oregon/08/2020|6|02/11/2020|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Pennsylvania/505/2018|6|11/06/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Pennsylvania/517/2018|6|11/11/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Rhode_Island/22/2019|6|04/01/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Texas/7429/2018|6|01/06/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/Virginia/18/2018|6|02/14/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/50/2018|6|02/12/2018|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/9595/2019|6|04/01/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "A/West_Virginia/22/2019|6|03/10/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Wisconsin/352/2017|6|12/19/2017|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Wuhan/899/2019|6|01/2019|China|NA": {
+      "country": null,
+      "region": "asia",
+      "region_confidence": {
+        "asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "A/Wyoming/07/2019|6|02/04/2019|USA|NA": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.027738751250662354,
+        "europe": 0.018134177142832067,
+        "north_america": 0.6960872490953094,
+        "south_america": 0.2580398225111963
+      },
+      "region_entropy": 0.773888698378114
+    },
+    "NODE_0000001": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.022945310787407268,
+        "europe": 0.014515609379797319,
+        "north_america": 0.6379587048164652,
+        "south_america": 0.3245803750163302
+      },
+      "region_entropy": 0.800023873460711
+    },
+    "NODE_0000002": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9999999975231404
+      },
+      "region_entropy": 5.176593831943221e-08
+    },
+    "NODE_0000004": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.08833975958989634,
+        "europe": 0.002043555030339217,
+        "north_america": 0.9084587431519271,
+        "south_america": 0.0011579422278374645
+      },
+      "region_entropy": 0.32206432390807765
+    },
+    "NODE_0000005": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.008383118381242394,
+        "north_america": 0.9911721634130076
+      },
+      "region_entropy": 0.052596781535958224
+    },
+    "NODE_0000006": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.0012520113160300371,
+        "north_america": 0.9984915351407144
+      },
+      "region_entropy": 0.012166377419018609
+    },
+    "NODE_0000007": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9998042100226904
+      },
+      "region_entropy": 0.0019521801698846567
+    },
+    "NODE_0000009": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.001053324396357564,
+        "north_america": 0.9982220943759769
+      },
+      "region_entropy": 0.014723676691706634
+    },
+    "NODE_0000011": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9988378721006775
+      },
+      "region_entropy": 0.010121569919728119
+    },
+    "NODE_0000014": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.999607684383368
+      },
+      "region_entropy": 0.003838673959614557
+    },
+    "NODE_0000016": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9995377680875194
+      },
+      "region_entropy": 0.004447464156426941
+    },
+    "NODE_0000019": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9996342864776293
+      },
+      "region_entropy": 0.0036023554853805255
+    },
+    "NODE_0000020": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.999864969703491
+      },
+      "region_entropy": 0.001452535262513873
+    },
+    "NODE_0000021": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9984405146329107
+      },
+      "region_entropy": 0.01310842400666911
+    },
+    "NODE_0000023": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.00403350178488556,
+        "europe": 0.0017712193487286108,
+        "north_america": 0.9938957061000626
+      },
+      "region_entropy": 0.04197588521205783
+    },
+    "NODE_0000024": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.16294883506484506,
+        "europe": 0.09132017187871393,
+        "north_america": 0.7436288401175094,
+        "south_america": 0.002102152938931594
+      },
+      "region_entropy": 0.7474374165648413
+    },
+    "NODE_0000025": {
+      "country": null,
+      "region": "asia",
+      "region_confidence": {
+        "asia": 0.3952189710625933,
+        "europe": 0.25618155465053016,
+        "north_america": 0.3469331691226695,
+        "south_america": 0.0016663051642070055
+      },
+      "region_entropy": 1.0937045809683026
+    },
+    "NODE_0000027": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9997211948630056
+      },
+      "region_entropy": 0.0027967564286914557
+    },
+    "NODE_0000029": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9994128501130446
+      },
+      "region_entropy": 0.005498512886509974
+    },
+    "NODE_0000031": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9984568132080779
+      },
+      "region_entropy": 0.012991180667880558
+    },
+    "NODE_0000032": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9993812589174044
+      },
+      "region_entropy": 0.005767354698641907
+    },
+    "NODE_0000033": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.999348172647008
+      },
+      "region_entropy": 0.005989761627624655
+    },
+    "NODE_0000035": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.0010398005702617703,
+        "north_america": 0.9982632280977621
+      },
+      "region_entropy": 0.014411761574468433
+    },
+    "NODE_0000036": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9984264232496338
+      },
+      "region_entropy": 0.013237937969417087
+    },
+    "NODE_0000037": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9996160406793335
+      },
+      "region_entropy": 0.0034652840037649162
+    },
+    "NODE_0000038": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9996257556867992
+      },
+      "region_entropy": 0.0036663035934070094
+    },
+    "NODE_0000041": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.08049407538398774,
+        "north_america": 0.9185875903866907
+      },
+      "region_entropy": 0.28783376790178017
+    },
+    "NODE_0000042": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "europe": 0.0016910174547298505,
+        "north_america": 0.9981867305980139
+      },
+      "region_entropy": 0.013745761608863896
+    },
+    "NODE_0000045": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.0010370459336183056,
+        "north_america": 0.9979364326551777
+      },
+      "region_entropy": 0.0168264853796519
+    },
+    "NODE_0000046": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.0019046490466679694,
+        "north_america": 0.996683641383861
+      },
+      "region_entropy": 0.025429676040371083
+    },
+    "NODE_0000047": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "asia": 0.0010706168482504006,
+        "north_america": 0.9981444891307022
+      },
+      "region_entropy": 0.015305339413155754
+    },
+    "NODE_0000048": {
+      "country": null,
+      "region": "north_america",
+      "region_confidence": {
+        "north_america": 0.9994565547947115
+      },
+      "region_entropy": 0.005132172484607739
+    }
+  }
+}

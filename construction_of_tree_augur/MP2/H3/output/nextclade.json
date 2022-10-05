@@ -1,0 +1,2827 @@
+{
+  "schemaVersion": "1.0.0",
+  "nextcladeAlgoVersion": "2.3.0",
+  "createdAt": "2022-09-18T09:24:55.269031+00:00",
+  "cladeNodeAttrKeys": [],
+  "results": [
+    {
+      "index": 0,
+      "seqName": "A/District_Of_Columbia/58/2019|7|11/28/2019|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "A",
+          "pos": 203,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 1,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 80,
+        "A": 81,
+        "C": 59,
+        "G": 74,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [],
+      "totalAminoacidSubstitutions": 0,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 878,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "A",
+            "pos": 203,
+            "queryNuc": "T"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "A",
+            "pos": 203,
+            "queryNuc": "T"
+          }
+        ],
+        "totalPrivateSubstitutions": 1,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 1
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 0,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.003367003367003367,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 1,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 1,
+      "seqName": "A/Nevada/8293/2019|7|01/30/2019|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "T",
+          "pos": 14,
+          "queryNuc": "A",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 74,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "G",
+          "pos": 81,
+          "queryNuc": "A",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 157,
+          "queryNuc": "G",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 230,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 287,
+          "queryNuc": "G",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 6,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 80,
+        "A": 82,
+        "C": 57,
+        "G": 75,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [
+        {
+          "gene": "MA2",
+          "refAA": "V",
+          "codon": 26,
+          "queryAA": "I",
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "refAA": "Y",
+          "codon": 51,
+          "queryAA": "C",
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "totalAminoacidSubstitutions": 2,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 26,
+            "end": 27
+          },
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "G",
+                  "pos": 81,
+                  "queryNuc": "A"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 51,
+            "end": 52
+          },
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "A",
+                  "pos": 157,
+                  "queryNuc": "G"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 858,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "totalPrivateSubstitutions": 6,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 6
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [
+            {
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I"
+            },
+            {
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C"
+            }
+          ],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 2,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.020202020202020204,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 6,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 2,
+      "seqName": "A/Louisiana/15/2020|7|02/05/2020|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "T",
+          "pos": 14,
+          "queryNuc": "A",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 74,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "G",
+          "pos": 81,
+          "queryNuc": "A",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 157,
+          "queryNuc": "G",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 230,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 287,
+          "queryNuc": "G",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 6,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 80,
+        "A": 82,
+        "C": 57,
+        "G": 75,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [
+        {
+          "gene": "MA2",
+          "refAA": "V",
+          "codon": 26,
+          "queryAA": "I",
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "refAA": "Y",
+          "codon": 51,
+          "queryAA": "C",
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "totalAminoacidSubstitutions": 2,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 26,
+            "end": 27
+          },
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "G",
+                  "pos": 81,
+                  "queryNuc": "A"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 51,
+            "end": 52
+          },
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "A",
+                  "pos": 157,
+                  "queryNuc": "G"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 858,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "totalPrivateSubstitutions": 6,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 6
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [
+            {
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I"
+            },
+            {
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C"
+            }
+          ],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 2,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.020202020202020204,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 6,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 3,
+      "seqName": "A/Hawaii/18/2018|7|02/08/2018|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "T",
+          "pos": 14,
+          "queryNuc": "A",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 230,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 2,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 79,
+        "A": 83,
+        "C": 58,
+        "G": 74,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [],
+      "totalAminoacidSubstitutions": 0,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 874,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          }
+        ],
+        "totalPrivateSubstitutions": 2,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 2
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 0,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.006734006734006734,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 2,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 4,
+      "seqName": "A/New_Mexico/08/2019|7|01/28/2019|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "C",
+          "pos": 76,
+          "queryNuc": "T",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "P",
+              "codon": 24,
+              "queryAA": "L",
+              "codonNucRange": {
+                "begin": 75,
+                "end": 78
+              },
+              "refContext": "GACCCGCTT",
+              "queryContext": "GACCTGCTT",
+              "contextNucRange": {
+                "begin": 72,
+                "end": 81
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "T",
+          "pos": 137,
+          "queryNuc": "C",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 2,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 79,
+        "A": 82,
+        "C": 59,
+        "G": 74,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [
+        {
+          "gene": "MA2",
+          "refAA": "P",
+          "codon": 24,
+          "queryAA": "L",
+          "codonNucRange": {
+            "begin": 75,
+            "end": 78
+          },
+          "refContext": "GACCCGCTT",
+          "queryContext": "GACCTGCTT",
+          "contextNucRange": {
+            "begin": 72,
+            "end": 81
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "C",
+              "pos": 76,
+              "queryNuc": "T"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "totalAminoacidSubstitutions": 1,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 24,
+            "end": 25
+          },
+          "codonNucRange": {
+            "begin": 75,
+            "end": 78
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "P",
+              "codon": 24,
+              "queryAA": "L",
+              "codonNucRange": {
+                "begin": 75,
+                "end": 78
+              },
+              "refContext": "GACCCGCTT",
+              "queryContext": "GACCTGCTT",
+              "contextNucRange": {
+                "begin": 72,
+                "end": 81
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "C",
+                  "pos": 76,
+                  "queryNuc": "T"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "GACCCGCTT",
+          "queryContext": "GACCTGCTT",
+          "contextNucRange": {
+            "begin": 72,
+            "end": 81
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "C",
+              "pos": 76,
+              "queryNuc": "T"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 874,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "C",
+            "pos": 76,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "T",
+            "pos": 137,
+            "queryNuc": "C"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "C",
+            "pos": 76,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "T",
+            "pos": 137,
+            "queryNuc": "C"
+          }
+        ],
+        "totalPrivateSubstitutions": 2,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 2
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [
+            {
+              "refAA": "P",
+              "codon": 24,
+              "queryAA": "L"
+            }
+          ],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 1,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.006734006734006734,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 2,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 5,
+      "seqName": "A/Wuhan/2153/2018|7|02/2018|China|M1",
+      "substitutions": [],
+      "totalSubstitutions": 0,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 79,
+        "A": 82,
+        "C": 59,
+        "G": 74,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [],
+      "totalAminoacidSubstitutions": 0,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 882,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [],
+        "totalPrivateSubstitutions": 0,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 0
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 0,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.0,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 0,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 6,
+      "seqName": "A/Texas/9431/2019|7|02/06/2019|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "T",
+          "pos": 14,
+          "queryNuc": "A",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 74,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "G",
+          "pos": 81,
+          "queryNuc": "A",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 157,
+          "queryNuc": "G",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 230,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 287,
+          "queryNuc": "G",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 6,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 80,
+        "A": 82,
+        "C": 57,
+        "G": 75,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [
+        {
+          "gene": "MA2",
+          "refAA": "V",
+          "codon": 26,
+          "queryAA": "I",
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "refAA": "Y",
+          "codon": 51,
+          "queryAA": "C",
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "totalAminoacidSubstitutions": 2,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 26,
+            "end": 27
+          },
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "G",
+                  "pos": 81,
+                  "queryNuc": "A"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 51,
+            "end": 52
+          },
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "A",
+                  "pos": 157,
+                  "queryNuc": "G"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 858,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "totalPrivateSubstitutions": 6,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 6
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [
+            {
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I"
+            },
+            {
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C"
+            }
+          ],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 2,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.020202020202020204,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 6,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 7,
+      "seqName": "A/South_Carolina/NHRC_OID_JX42387/2019|7|02/04/2019|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "C",
+          "pos": 76,
+          "queryNuc": "T",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "P",
+              "codon": 24,
+              "queryAA": "L",
+              "codonNucRange": {
+                "begin": 75,
+                "end": 78
+              },
+              "refContext": "GACCCGCTT",
+              "queryContext": "GACCTGCTT",
+              "contextNucRange": {
+                "begin": 72,
+                "end": 81
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "T",
+          "pos": 137,
+          "queryNuc": "C",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 2,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [
+        {
+          "begin": 107,
+          "end": 108,
+          "character": "Y"
+        }
+      ],
+      "totalNonACGTNs": 1,
+      "nucleotideComposition": {
+        "T": 79,
+        "A": 82,
+        "C": 58,
+        "Y": 1,
+        "G": 74,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [
+        {
+          "gene": "MA2",
+          "refAA": "P",
+          "codon": 24,
+          "queryAA": "L",
+          "codonNucRange": {
+            "begin": 75,
+            "end": 78
+          },
+          "refContext": "GACCCGCTT",
+          "queryContext": "GACCTGCTT",
+          "contextNucRange": {
+            "begin": 72,
+            "end": 81
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "C",
+              "pos": 76,
+              "queryNuc": "T"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "totalAminoacidSubstitutions": 1,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [
+        {
+          "geneName": "MA2",
+          "character": "X",
+          "ranges": [
+            {
+              "begin": 34,
+              "end": 35,
+              "character": "X"
+            }
+          ],
+          "length": 1
+        }
+      ],
+      "totalUnknownAa": 1,
+      "aaChangesGroups": [
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 24,
+            "end": 25
+          },
+          "codonNucRange": {
+            "begin": 75,
+            "end": 78
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "P",
+              "codon": 24,
+              "queryAA": "L",
+              "codonNucRange": {
+                "begin": 75,
+                "end": 78
+              },
+              "refContext": "GACCCGCTT",
+              "queryContext": "GACCTGCTT",
+              "contextNucRange": {
+                "begin": 72,
+                "end": 81
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "C",
+                  "pos": 76,
+                  "queryNuc": "T"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "GACCCGCTT",
+          "queryContext": "GACCTGCTT",
+          "contextNucRange": {
+            "begin": 72,
+            "end": 81
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "C",
+              "pos": 76,
+              "queryNuc": "T"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 874,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "C",
+            "pos": 76,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "T",
+            "pos": 137,
+            "queryNuc": "C"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "C",
+            "pos": 76,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "T",
+            "pos": 137,
+            "queryNuc": "C"
+          }
+        ],
+        "totalPrivateSubstitutions": 2,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 2
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [
+            {
+              "refAA": "P",
+              "codon": 24,
+              "queryAA": "L"
+            }
+          ],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 1,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.006734006734006734,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 25.0,
+          "status": "good",
+          "totalMixedSites": 1,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 2,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 6.25,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 8,
+      "seqName": "A/Osorno/PUC_MVL_COL150/2018|7|2018|Chile|M1",
+      "substitutions": [
+        {
+          "refNuc": "T",
+          "pos": 14,
+          "queryNuc": "A",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 230,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 2,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 79,
+        "A": 83,
+        "C": 58,
+        "G": 74,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [],
+      "totalAminoacidSubstitutions": 0,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 874,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          }
+        ],
+        "totalPrivateSubstitutions": 2,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 2
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 0,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.006734006734006734,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 2,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 9,
+      "seqName": "A/California/142/2019|7|05/22/2019|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "T",
+          "pos": 14,
+          "queryNuc": "A",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 74,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "G",
+          "pos": 81,
+          "queryNuc": "A",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 157,
+          "queryNuc": "G",
+          "aaSubstitutions": [
+            {
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              }
+            }
+          ],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 230,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "A",
+          "pos": 287,
+          "queryNuc": "G",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 6,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 80,
+        "A": 82,
+        "C": 57,
+        "G": 75,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [
+        {
+          "gene": "MA2",
+          "refAA": "V",
+          "codon": 26,
+          "queryAA": "I",
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "refAA": "Y",
+          "codon": 51,
+          "queryAA": "C",
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "totalAminoacidSubstitutions": 2,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 26,
+            "end": 27
+          },
+          "codonNucRange": {
+            "begin": 81,
+            "end": 84
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I",
+              "codonNucRange": {
+                "begin": 81,
+                "end": 84
+              },
+              "refContext": "CTTGTTGTT",
+              "queryContext": "CTTATTGTT",
+              "contextNucRange": {
+                "begin": 78,
+                "end": 87
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "G",
+                  "pos": 81,
+                  "queryNuc": "A"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "CTTGTTGTT",
+          "queryContext": "CTTATTGTT",
+          "contextNucRange": {
+            "begin": 78,
+            "end": 87
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "G",
+              "pos": 81,
+              "queryNuc": "A"
+            }
+          ],
+          "nucDeletions": []
+        },
+        {
+          "gene": "MA2",
+          "codonAaRange": {
+            "begin": 51,
+            "end": 52
+          },
+          "codonNucRange": {
+            "begin": 156,
+            "end": 159
+          },
+          "changes": [
+            {
+              "type": "substitution",
+              "gene": "MA2",
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C",
+              "codonNucRange": {
+                "begin": 156,
+                "end": 159
+              },
+              "refContext": "GTCTATCGA",
+              "queryContext": "GTCTGTCGA",
+              "contextNucRange": {
+                "begin": 153,
+                "end": 162
+              },
+              "nucSubstitutions": [
+                {
+                  "refNuc": "A",
+                  "pos": 157,
+                  "queryNuc": "G"
+                }
+              ],
+              "nucDeletions": []
+            }
+          ],
+          "refContext": "GTCTATCGA",
+          "queryContext": "GTCTGTCGA",
+          "contextNucRange": {
+            "begin": 153,
+            "end": 162
+          },
+          "numSubstitutions": 1,
+          "numDeletions": 1,
+          "nucSubstitutions": [
+            {
+              "refNuc": "A",
+              "pos": 157,
+              "queryNuc": "G"
+            }
+          ],
+          "nucDeletions": []
+        }
+      ],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 858,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 74,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "G",
+            "pos": 81,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "A",
+            "pos": 157,
+            "queryNuc": "G"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          },
+          {
+            "refNuc": "A",
+            "pos": 287,
+            "queryNuc": "G"
+          }
+        ],
+        "totalPrivateSubstitutions": 6,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 6
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [
+            {
+              "refAA": "V",
+              "codon": 26,
+              "queryAA": "I"
+            },
+            {
+              "refAA": "Y",
+              "codon": 51,
+              "queryAA": "C"
+            }
+          ],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 2,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.020202020202020204,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 6,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    },
+    {
+      "index": 10,
+      "seqName": "A/Texas/78/2018|7|02/02/2018|USA|M1",
+      "substitutions": [
+        {
+          "refNuc": "T",
+          "pos": 14,
+          "queryNuc": "A",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        },
+        {
+          "refNuc": "C",
+          "pos": 230,
+          "queryNuc": "T",
+          "aaSubstitutions": [],
+          "aaDeletions": []
+        }
+      ],
+      "totalSubstitutions": 2,
+      "deletions": [],
+      "totalDeletions": 0,
+      "insertions": [],
+      "totalInsertions": 0,
+      "missing": [],
+      "totalMissing": 0,
+      "nonACGTNs": [],
+      "totalNonACGTNs": 0,
+      "nucleotideComposition": {
+        "T": 79,
+        "A": 83,
+        "C": 58,
+        "G": 74,
+        "-": 3
+      },
+      "frameShifts": [],
+      "totalFrameShifts": 0,
+      "aaSubstitutions": [],
+      "totalAminoacidSubstitutions": 0,
+      "aaDeletions": [],
+      "totalAminoacidDeletions": 0,
+      "aaInsertions": [],
+      "totalAminoacidInsertions": 0,
+      "unknownAaRanges": [],
+      "totalUnknownAa": 0,
+      "aaChangesGroups": [],
+      "alignmentStart": 3,
+      "alignmentEnd": 297,
+      "alignmentScore": 874,
+      "pcrPrimerChanges": [],
+      "totalPcrPrimerChanges": 0,
+      "clade": "unassigned",
+      "privateNucMutations": {
+        "privateSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          }
+        ],
+        "privateDeletions": [],
+        "reversionSubstitutions": [],
+        "labeledSubstitutions": [],
+        "unlabeledSubstitutions": [
+          {
+            "refNuc": "T",
+            "pos": 14,
+            "queryNuc": "A"
+          },
+          {
+            "refNuc": "C",
+            "pos": 230,
+            "queryNuc": "T"
+          }
+        ],
+        "totalPrivateSubstitutions": 2,
+        "totalPrivateDeletions": 0,
+        "totalReversionSubstitutions": 0,
+        "totalLabeledSubstitutions": 0,
+        "totalUnlabeledSubstitutions": 2
+      },
+      "privateAaMutations": {
+        "MA2": {
+          "privateSubstitutions": [],
+          "privateDeletions": [],
+          "reversionSubstitutions": [],
+          "totalPrivateSubstitutions": 0,
+          "totalPrivateDeletions": 0,
+          "totalReversionSubstitutions": 0
+        }
+      },
+      "warnings": [],
+      "missingGenes": [],
+      "divergence": 0.006734006734006734,
+      "qc": {
+        "missingData": null,
+        "mixedSites": {
+          "score": 0.0,
+          "status": "good",
+          "totalMixedSites": 0,
+          "mixedSitesThreshold": 4
+        },
+        "privateMutations": {
+          "score": 0.0,
+          "status": "good",
+          "numReversionSubstitutions": 0,
+          "numLabeledSubstitutions": 0,
+          "numUnlabeledSubstitutions": 2,
+          "totalDeletionRanges": 0,
+          "weightedTotal": 0.0,
+          "excess": -5.0,
+          "cutoff": 15.0
+        },
+        "snpClusters": null,
+        "frameShifts": {
+          "score": 0.0,
+          "status": "good",
+          "frameShifts": [],
+          "totalFrameShifts": 0,
+          "frameShiftsIgnored": [],
+          "totalFrameShiftsIgnored": 0
+        },
+        "stopCodons": {
+          "score": 0.0,
+          "status": "good",
+          "stopCodons": [],
+          "totalStopCodons": 0,
+          "stopCodonsIgnored": [],
+          "totalStopCodonsIgnored": 0
+        },
+        "overallScore": 0.0,
+        "overallStatus": "good"
+      },
+      "customNodeAttributes": {},
+      "nearestNodeId": 0,
+      "isReverseComplement": false
+    }
+  ],
+  "errors": []
+}
