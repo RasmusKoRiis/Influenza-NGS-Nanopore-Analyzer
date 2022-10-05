@@ -1,3 +1,13 @@
+# Data-files and temp-files #
+######################
+temp*
+construction_of_tree_augur
+HA.fa
+NA.fa
+MP.fa
+MP2.fa
+test_env
+
 # Compiled source #
 ###################
 *.com
